@@ -1,0 +1,12 @@
+*{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 50%;
+}
+
+p{
+    width: 50%;
+}

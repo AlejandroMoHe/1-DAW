@@ -1,0 +1,12 @@
+article{
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    article{
+        width: 100%;
+    }
+}

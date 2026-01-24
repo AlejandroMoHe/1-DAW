@@ -1,0 +1,12 @@
+body{
+    background-color: gray;
+}
+#texto{
+    background-color: lightgray;
+    padding: 1.5rem;
+    width: 50%;
+}
+
+img{
+    width: 50%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    
+    <form action="login.php">
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com">
+        <br>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej:Ana López">
+        <br>
+        <label for="contrasenha">Contraseña:</label>
+        <input type="password" id="contrasenha" name="contrasenha">
+        <br>
+        <label for="contrasenha2">Repiter la contraseña:</label>
+        <input type="password" id="contrasenha2" name="contrasenha2">
+        <br>
+        <label for="fechaNacimiento">Fecha de fecha de nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+        <br>
+        <input type="checkbox" id="mayorEdad" name="mayorEdad" value="1">
+        <label for="mayorEdad">Confirmo que soy mayor de edad.</label>
+        <br>
+        <input type="checkbox" id="masInfo" name="masInfo" value="1">
+        <label for="masInfo">Quiero más información.</label>
+
+        <button type="submit">Registrarse</button>
+    </form>
+
+</body>
+</html>

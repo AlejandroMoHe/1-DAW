@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+</head>
+<body>
+
+    <h1><strong>Examen UD2 - HTML</strong></h1>
+    <h2><strong>Índice de ejercicios</strong></h2>
+    <nav>
+        <ul>
+            <li><a href="#ejercicio1">Ejercicio1</a></li>
+            <li><a href="#ejercicio2">Ejercicio2</a></li>
+            <li><a href="#ejercicio3">Ejercicio3</a></li>
+            <li><a href="#ejercicio4">Ejercicio4</a></li>
+            <li><a href="#ejercicio5">Ejercicio5</a></li>
+            <li><a href="#ejercicio6">Ejercicio6</a></li>
+        </ul>
+    </nav>
+    
+    <h2 id="ejercicio1"><strong>Ejercicio1</strong></h2>
+    <section>
+        <p>Bulbasaur</p>
+        <p>Sapo con una planta parásita en la espalda; como no llega a rascarse, no puede quitársela. Está de muy mala leche por ello.</p>
+
+        <p>Charmander</p>
+        <p>Lagartija con la cola en llamas; aunque no lo demuestre, sufre mucho a diario. Al fin y al cabo, tiene la cola ardiendo.</p>
+
+        <p>Squirtle</p>
+        <p>Es, literalmente, una tortuga. No se calentaron mucho la cabeza.</p>
+    </section>
+    <br>
+
+    <h2 id="ejercicio2"><strong>Ejercicio2</strong></h2>
+    <section>
+        <ul>
+            <li>Tipo planta</li>
+                <ul>
+                    <li>Bulbasaur</li>
+                    <li>Oddish</li>
+                    <li>Bellosom</li>
+                </ul>
+
+            <li>Tipo fuego</li>
+                <ul>
+                    <li>Charmander</li>
+                    <li>Vulpix</li>
+                    <li>Growlithe</li>
+                </ul>
+
+            <li>Tipo agua</li>
+                <ul>
+                    <li>Squirtle</li>
+                    <li>Psyduck</li>
+                    <li>Staryu</li>
+                </ul>
+        </ul>
+    </section>
+    
+    <br>
+
+    <h2 id="ejercicio3"><strong>Ejercicio3</strong></h2>
+    <section>
+        <h2>Bulbasaur</h2>
+        <img src="img/bulbasaur.jpeg" alt="">
+        <p>Sapo con una planta parásita en la espalda; como no llega a rascarse, no puede quitársela. Está de muy mala leche por ello.</p>
+        <br>
+
+        <h2>Charmander</h2>
+        <img src="img/charmander.jpeg" alt="">
+        <p>Lagartija con la cola en llamas; aunque no lo demuestre, sufre mucho a diario. Al fin y al cabo, tiene la cola ardiendo.</p>
+        <br>
+
+        <h2>Squirtle</h2>
+        <img src="img/squirtle.gif" alt="">
+        <p>Es, literalmente, una tortuga. No se calentaron mucho la cabeza.</p>
+
+        <h2 id="ejercicio4"><strong>Ejercicio4</strong></h2>
+    </section>
+    <br>
+
+    <section>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Tipo</td>
+                    <td>Peso</td>
+                    <td>Altura</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bulbasaur</td>
+                    <td>Planta/Veneno</td>
+                    <td>6,9 kg</td>
+                    <td>0,7 m</td>
+                </tr>
+
+                <tr>
+                    <td>Charmander</td>
+                    <td>Fuego</td>
+                    <td>8,5 kg</td>
+                    <td>0,6 m</td>
+                </tr>
+
+                <tr>
+                    <td>Squirtle</td>
+                    <td>Agua</td>
+                    <td>9,0 kg</td>
+                    <td>0,5 m</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><strong>Altura media</strong></td>
+                    <td>0,6 m</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><strong>Peso medio</strong></td>
+                    <td>8,1 kg</td>
+                </tr>
+            </tbody>
+            <caption>Datos de los tres Pokémon inciales</caption>
+        </table>
+    </section>
+    <br>
+
+    <h2 id="ejercicio5"><strong>Ejercicio5</strong></h2>
+        <section>
+            <form action="login.php">
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre">
+                <br>
+
+                <label for="tipo">Tipo:</label>
+                <br>
+                <select name="tipo" id="tipo">
+
+                    <option value="planta">Planta</option>
+
+                    <option value="fuego">Fuego</option>
+
+                    <option value="agua">Agua</option>
+                </select>
+                <br>
+
+                <label for="peso">Peso (kg)</label>
+                <br>
+                <input type="text" id="peso" name="peso">
+                <br>
+                <label for="altura">Altura (m)</label>
+                <br>
+                <input type="text" id="altura" name="altura">
+                <br>
+                <fieldset>
+                    <legend>Género:</legend>
+
+                    <input type="radio" id="macho" name="genero">
+                    <label for="macho">Macho</label>
+
+                    <input type="radio" id="hembra" name="genero">
+                    <label for="hembra">Hembra</label>
+
+                    <input type="radio" id="otro" name="genero">
+                    <label for="otro">Otro</label>
+                </fieldset>
+                <br>
+
+                <label for="fecha">Fecha de captura:</label>
+                <br>
+                <input type="date" id="fecha" name="fecha">
+                <br>
+
+                <label for="descripcion">Descripción</label>
+                <br>
+                <textarea name="descripcion" id="descripcion" placeholder="Escribe un breve descripción..."></textarea>
+                <br>
+
+                <button type="submit">Insertar Pokémon</button>
+            </form>
+        </section>
+</body>
+</html>

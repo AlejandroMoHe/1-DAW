@@ -1,0 +1,59 @@
+/* estilo.css */
+/* Estilo retro de los 90s para la página FNaF */
+
+body {
+    background-color: black;
+    color: lime;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+}
+
+h1 {
+    color: cyan;
+    background-color: purple;
+    padding: 10px;
+    border: 3px double yellow;
+    text-shadow: 2px 2px red;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: yellow;
+    background-color: darkgreen;
+    padding: 5px;
+    border: 2px dashed lime;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+img {
+    border: 4px ridge cyan;
+    padding: 5px;
+    background-color: #111;
+    margin: 10px;
+}
+
+hr {
+    border: 3px groove magenta;
+    margin: 40px 100px;
+}
+
+footer, .footer {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 50px;
+    background-color: #222;
+    padding: 10px;
+    border-top: 2px solid gray;
+}

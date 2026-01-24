@@ -1,0 +1,30 @@
+*{
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+h3{
+    text-align: center;
+}
+
+div{
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: black;
+}
+
+#arriba{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+#arriba img{
+    width: 9%;
+    display: inline-block;
+}
+
+#abajo img{
+    float: right;
+}
+

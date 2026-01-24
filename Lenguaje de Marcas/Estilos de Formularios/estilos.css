@@ -1,0 +1,33 @@
+input, textarea{
+    border-radius: 0.75px;
+}
+
+h2{
+    text-align: center;
+}
+#contacto{
+    border: solid 1px black;
+    padding: 0 1rem 1rem 1rem;
+}
+.agrupacion{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+#problema{
+    margin-top: 1rem 0;
+}
+
+#problema textarea{
+    width: 100%;
+}
+
+#formulario_contacto button{
+    margin: auto;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

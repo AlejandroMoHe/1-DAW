@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+#planetas{
+    display: flex;
+    align-items: center;
+}
+
+.planeta{
+    width: 25%;
+}
+
+.luna{
+    width: 8.33%;
+    align-self: flex-start;
+}

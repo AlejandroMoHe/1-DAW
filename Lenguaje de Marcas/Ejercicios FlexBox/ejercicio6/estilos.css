@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+section{
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+}
+
+section>*{
+    width: 50%;
+}
+
+#texto{
+    padding:0 1rem;
+}
+
+#imagen>img{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    section{
+        width: 100%;
+    }
+
+    #texto{
+        width: 100%;
+        order: 1;
+    }
+
+    #imagen{
+        width: 100%;
+        order: 2;
+    }
+}

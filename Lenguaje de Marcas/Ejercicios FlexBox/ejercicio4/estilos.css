@@ -1,0 +1,28 @@
+        *{
+            margin: 0px;
+        }
+
+        nav{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.25rem;
+            flex-wrap: wrap;
+        }
+
+        nav div {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        nav #enlaces-externos {
+            background-color: darkblue;
+            display: flex;
+            gap: 0.5rem;
+        }  
+
+        nav a{
+            color: white;
+            text-decoration: none;
+        }

@@ -1,0 +1,28 @@
+#breaking-bad{
+    background-image: url("assests/breaking bad.jpg");
+    background-repeat: repeat;
+    color: white;
+    padding: 1rem;
+}
+
+#breaking-bad h1{
+    text-align: center;
+}
+
+#ico{
+    background-image: url("assests/ico.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#ico h2{
+    color: white;
+    text-align: center;
+    background-color: #00000075;
+    padding: 1.5rem;
+    font-size: 2rem;
+    width: 100%;
+}

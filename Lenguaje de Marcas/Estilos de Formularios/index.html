@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con estilos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="contacto">
+        <h2>Formulario de contacto:</h2>
+        <form  id="formulario_contacto" action="">
+            <div class="agrupacion">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <div class="agrupacion">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos">
+            </div>
+
+            <div class="agrupacion">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo">
+            </div>
+            <div id="problema">
+                <label for="descripcion">Cuentanos tu problema:</label>
+                <textarea name="descripcion" id="descripcion"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+</body>
+</html>

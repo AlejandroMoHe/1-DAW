@@ -1,0 +1,98 @@
+<form action="juego.php">
+    <label for="nombre">Tu nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+
+    <label for="nacimiento">Fecha de nacimiento:</label>
+    <input type="date" id="nacimiento" name="nacimiento">
+    <br>
+
+    <fieldset>
+        <legend>Género</legend>
+
+        <input type="radio" id="hombre" name="genero" value="hombre">
+        <label for="hombre">Hombre</label>
+
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label>
+
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label>
+    </fieldset>
+    <br>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+    <br>
+
+    <label for="categoria">Selecciona tu categoría de videojuego retro favorita:</label>
+    <select id="categoria" name="categoria">
+
+        <option value="plataformas">Plataformas</option>
+
+        <option value="shooter">Shooter</option>
+
+        <option value="Beat'em up">Beat'em up</option>
+
+        <option value="lucha">Lucha</option>
+
+        <option value="aventura">Aventura</option>
+
+        <option value="puzzle">Puzzle</option>
+
+        <option value="arcade">Arcade</option>
+
+        <option value="deporte">Deportes</option>
+    </select>
+    <br>
+
+    <label for="juego">Nombre del juego sugerido:</label>
+    <input type="text" id="juego" name="juego" required>
+    <br>
+
+    <label for="imagen">Sube una imagen del juego:</label>
+    <input type="file">
+    <br>
+
+    <fieldset>
+        <legend>Selecciona el género de el juego</legend>
+
+            <input type="checkbox" id="plataformas" name="plataformas">
+            <label for="plataformas">Plataformas</label>
+            <br>
+
+            <input type="checkbox" id="shooter" name="shooter">
+            <label for="shooter">Shooter</label>
+            <br>
+
+            <input type="checkbox" id="Beat'em up" name="Beat'em up">
+            <label for="Beat'em up">Beat'em up</label>
+            <br>
+
+            <input type="checkbox" id="lucha" name="lucha">
+            <label for="lucha">Lucha</label>
+            <br>
+
+            <input type="checkbox" id="puzzle" name="puzzle">
+            <label for="puzzle">Puzzle</label>
+            <br>
+
+            <input type="checkbox" id="arcade" name="arcade">
+            <label for="arcade">Arcade</label>
+            <br>
+
+            <input type="checkbox" id="aventura" name="aventura">
+            <label for="aventura">Aventura</label>
+            <br>
+
+            <input type="checkbox" id="deporte" name="deporte">
+            <label for="deporte">Deportes</label>
+    </fieldset>
+
+    <label for="descripcion">Descripción:</label>
+    <br>
+    <textarea id="descripcion" name="descripcion" placeholder="Descripción del juego"></textarea>
+    <br>
+
+    <button type="submit">Enviar</button>
+</form>

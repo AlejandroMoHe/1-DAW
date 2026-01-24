@@ -1,0 +1,50 @@
+doctype: html
+html:
+  lang: es
+  head:
+    meta:
+      charset: "UTF-8"
+    title: "Animatrónicos - FNaF 1"
+    link:
+      rel: stylesheet
+      href: estilos.css
+  body:
+    h1: "🎮 Animatrónicos - Five Nights at Freddy's 1"
+    p_intro: "Conoce a los animatrónicos principales del primer juego de FNaF."
+    hr_top: true
+    animatronicos:
+      - nombre: "Freddy Fazbear"
+        img:
+          src: "https://www.pngkit.com/png/detail/618-6182207_artwork-freddy-fazbear-five-nights-at-freddys.png"
+          alt: "Freddy Fazbear"
+          width: 200
+        descripcion: "El líder de la banda. Freddy se vuelve más activo en las noches más avanzadas y ataca por el lado derecho."
+      - nombre: "Bonnie"
+        img:
+          src: "https://s.pngkit.com/png/small/158-1584535_good-news-i-can-use-my-tablet-in.png"
+          alt: "Bonnie"
+          width: 200
+        descripcion: "El conejo morado, muy activo desde la primera noche. Ataca por el lado izquierdo."
+      - nombre: "Chica"
+        img:
+          src: "https://s.pngkit.com/png/small/931-9317975_fnaf-chica-png-chica-1-fnaf.png"
+          alt: "Chica"
+          width: 200
+        descripcion: "La gallina amarilla que sostiene un cupcake. Suele atacar por el lado derecho."
+      - nombre: "Foxy"
+        img:
+          src: "https://s.pngkit.com/png/small/27-272431_imagefoxy-has-a-pirate-hat-now-fnaf-1.png"
+          alt: "Foxy"
+          width: 200
+        descripcion: "El zorro que se esconde en Pirate Cove. Corre hacia tu puerta si no lo vigilas con frecuencia."
+      - nombre: "✨ Golden Freddy"
+        img:
+          src: "https://www.pngkit.com/png/detail/349-3493017_golden-freddy-five-nights-at-freddys.png"
+          alt: "Golden Freddy"
+          width: 200
+        descripcion: "Una aparición misteriosa que puede colapsar el juego si no se actúa rápido. Aparece de forma aleatoria tras ciertos eventos."
+    hr_bottom: true
+    footer:
+      text: "Página hecha con HTML puro | FNaF © Scott Cawthon"
+      style:
+        font-size: "0.9em"

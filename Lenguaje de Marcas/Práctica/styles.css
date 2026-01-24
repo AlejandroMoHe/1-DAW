@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+}
+
+img{
+    width: 50%;
+}
+
+nav{
+    background-color: #0f172a;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.50rem;
+    flex-wrap: wrap;
+    border-bottom: lightsteelblue;
+}
+
+nav div{
+    display: flex;
+    gap: 1rem; 
+}
+
+nav a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+h1, h2.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inconsolata {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header img{
+    width: 25%;
+}

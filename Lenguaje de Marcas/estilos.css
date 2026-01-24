@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+#ejemplo div{
+  width: 50%;
+}
+
+@media (max-width: 768px){
+  #ejemplo{
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px){
+  #ejemplo{
+    width: 100%;
+  }
+
+  #ejemplo img{
+    width: 100%;
+  }
+
+  #ejemplo div{
+    width: 100%;
+  }
+}

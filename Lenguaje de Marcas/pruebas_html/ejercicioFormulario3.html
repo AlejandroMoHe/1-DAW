@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario general</title>
+</head>
+<body>
+
+    <form action="login.php">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo">
+        <br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña">
+        <br>
+        <fieldset>
+            <legend>Género</legend>
+
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="hombre">Hombre</label>
+
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label>
+
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro</label>
+
+        </fieldset>
+        <br>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+        <br>
+        <label for="numHijos">Numero de hijos:</label>
+        <input type="num" id="numHijos" name="numHijos" value="0">
+        <br>
+        <label for="avatar">Subir avatar:</label>
+        <input type="file" id="avatar" name="avatar">
+        <br>
+        <label for="provincia">Selecciona tu provincia: </label>
+        <select id="provincia" name="provincia">
+            <option value="almeria">Álmeria</option>
+
+            <option value="granada">Granada</option>
+
+            <option value="jaen">Jaén</option>
+
+            <option value="cordoba">Córdoba</option>
+
+            <option value="cadiz">Cadíz</option>
+
+            <option value="huelva">Huelva</option>
+
+            <option value="malaga">Málaga</option>
+
+            <option value="sevilla">Sevilla</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Selecciona área de interés</legend>
+
+                <input type="checkbox" id="informatica" name="informatica">
+                <label for="informatica">Informática</label>
+                <br>
+
+                <input type="checkbox" id="escalada" name="escalada">
+                <label for="escalada">Escalada</label>
+                <br>
+
+                <input type="checkbox" id="cripto" name="cripto">
+                <label for="cripto">Criptomonedas</label>
+                <br>
+
+                <input type="checkbox" id="lol" name="lol">
+                <label for="lol">League of Legends</label>
+                <br>
+
+                <input type="checkbox" id="ciclo" name="ciclo">
+                <label for="ciclo">Ciclismo</label>
+                <br>
+
+                <input type="checkbox" id="lectura" name="lectura">
+                <label for="lectura">Lectura</label>
+        </fieldset>
+        <br>
+        <label for="lenguajes">Selecciona el lenguaje que quieres aprender:</label>
+        <input list="lenguajes" id="lenguajes" name="lenguajes">
+        <datalist>
+            <option value="python">Python</option>
+            <option value="perl">Perl</option>
+        </datalist>
+        <br>
+        <label for="algo">Cuéntanos algo sobre tu vida:</label>
+        <br>
+        <textarea name="algo" id="algo" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+
+
+
+    </form>
+
+    
+</body>
+</html>
