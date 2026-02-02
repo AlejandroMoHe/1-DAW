@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #eaeaea;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    color: #f4d03f;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #000;
+    padding: 4px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+
+header form {
+    background-color: #dcdcdc;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+header form input {
+    height: 30px;
+    padding: 4px 6px;
+    border: 1px solid #aaa;
+    font-size: 0.9em;
+}
+
+header form button {
+    height: 30px;
+    padding: 4px 10px;
+    border: 1px solid #888;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+header form input {
+    text-align: center;
+    color: #333;
+}
+
+header img {
+    width: 80px;
+    margin-right: 15px;
+}
+
+nav {
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f4d03f;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #1f2933;
+}
+
+header form input {
+    margin-right: 5px;
+    background-color: #ffffff;
+    color: #000;
+}
+
+header form button {
+    background-color: #e63946;
+    color: #fff;
+    border: 1px solid #b52b35;
+}
+
+@media (min-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
+
+    header form {
+        margin-top: 0;
+    }
+}
+
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #111827;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+#intro h2 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#intro p {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#intro video {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #intro p {
+        width: 50%;
+    }
+
+    #intro video {
+        width: 50%;
+    }
+}
+
+#juegos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #111827;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+#juegos article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #1f2933;
+    border: 2px solid #f4d03f;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#juegos h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#juegos h3 {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #f4d03f;
+}
+
+#juegos ul {
+    padding: 15px;
+    background-color: #111827;
+    border: 1px solid #f4d03f;
+}
+
+#juegos ul ul {
+    margin-left: 0;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    margin-top: 10px;
+}
+
+#juegos img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+@media (min-width: 768px) {
+    #juegos article {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #juegos article {
+        width: 25%;
+    }
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #1f2933;
+    color: #eaeaea;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f0f0f0;
+    background-color: #f4d03f;
+    color: #000;
+}
+
+main form {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+form {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+form input, form textarea,form button {
+    width: 100%;
+}
+
+#formulario a{
+    text-decoration: none;
+    color: red;
+}
+
+footer {
+    background-color: #111827;
+    color: #f4d03f;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #cfcfcf;
+}
