@@ -1,26 +1,14 @@
 import math
-'''Las importaciones de las bibliotecas van al principio del proyecto
-'''
 
-def areaCirculo(area: float) -> float:
-    '''Calcula el área de un circulo
-    La variable a no era muy intuitiva
-    :area: numero real mayor a 0
-    :area: float
-    :return: devuelme el área calcula con math.pi
-    '''
-    if area <= 0:
+
+def areaCirculo(radio: float) -> float:
+    if radio <= 0:
         return 0
     else:
-        return math.pi * area * area
+        return math.pi * radio * radio
    
 def esPrimo(num: int) -> bool:
-    '''Indica si un número es primo o no
-    :num: número entero
-    :num: int
-    :return: un boleano
     
-    '''
     if num > 1:
         for i in range(2, num):
             if num % i == 0:
