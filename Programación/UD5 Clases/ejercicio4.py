@@ -10,6 +10,7 @@ class Proveedor:
    email: str
    localidad: str
 
+@dataclass
 class Pedido:
    id_pedido: int
    fecha_pedido: datetime

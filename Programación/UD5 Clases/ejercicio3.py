@@ -11,6 +11,7 @@ class Comercial:
    ciudad: str
    comision: float = 0
 
+@dataclass
 class Cliente:
    id: int
    nombre: str
@@ -19,6 +20,7 @@ class Cliente:
    ciudad: str
    categoria: int
 
+@dataclass
 class Pedido:
    id: int
    cantidad: float
