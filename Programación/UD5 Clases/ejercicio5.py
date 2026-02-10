@@ -8,7 +8,7 @@ class Alumno:
    email: str
 
 @dataclass
-class Pedido:
+class Asignatura:
    id_asignatura: int
    nombre: str
    horas_semanales: float
