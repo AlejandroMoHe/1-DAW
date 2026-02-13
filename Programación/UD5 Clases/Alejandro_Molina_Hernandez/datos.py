@@ -1,6 +1,10 @@
 from EstudiosAnima import Estudio
 from datetime import datetime
 
+
+def get_datos(n: int) -> list[Estudio]:
+    pass
+
 estudios_occidente = [
     Estudio(1, "Walt Disney Pictures", ["Walt Disney", "Roy O. Disney"], datetime(1923, 10, 16), True, 28.00, datetime(2025, 11, 27)),
     Estudio(2, "Warner Bros. Pictures", ["Harry Warner", "Albert Warner", "Sam Warner", "Jack Warner"], datetime(1923, 4, 4), True, 24.00, datetime(2025, 7, 12)),
@@ -15,15 +19,17 @@ estudios_occidente = [
 ]
 
 estudios_oriente = [
-    Estudio(11, "Toho Co., Ltd.", ["Ichizō Kobayashi"], datetime(1932, 8, 12), True, 6500.00, datetime(2025, 7, 19)),
-    Estudio(12, "Toei Company, Ltd.", ["Keita Goto"], datetime(1951, 4, 1), True, 4200.00, datetime(2024, 12, 7)),
-    Estudio(13, "Shochiku Co., Ltd.", ["Takejirō Ōtani", "Matsujirō Shirai"], datetime(1895, 1, 1), True, 3800.00, datetime(2024, 10, 3)),
-    Estudio(14, "Studio Ghibli", ["Hayao Miyazaki", "Isao Takahata", "Toshio Suzuki"], datetime(1985, 6, 15), True, 3100.00, datetime(2023, 7, 14)),
-    Estudio(15, "Sunrise (Bandai Namco Filmworks)", ["Yoshiyuki Tomino", "Hajime Yatate"], datetime(1972, 9, 1), True, 2900.00, datetime(2024, 5, 22)),
-    Estudio(16, "China Film Group Corporation", ["Gobierno de China"], datetime(1999, 2, 1), True, 8500.00, datetime(2025, 2, 10)),
-    Estudio(17, "Huayi Brothers Media", ["Wang Zhongjun", "Wang Zhonglei"], datetime(1994, 1, 1), True, 2600.00, datetime(2024, 9, 18)),
-    Estudio(18, "Beijing Enlight Media", ["Wang Changtian"], datetime(1998, 1, 1), True, 2400.00, datetime(2024, 8, 9)),
-    Estudio(19, "CJ ENM Pictures", ["Lee Mi-kyung"], datetime(1995, 12, 1), True, 5000.00, datetime(2025, 1, 25)),
-    Estudio(20, "Toho-Towa", ["Ichizō Kobayashi"], datetime(1928, 1, 1), True, 2100.00, datetime(2024, 11, 2)),
+    Estudio(1, "Toho Co., Ltd.", ["Ichizō Kobayashi"], datetime(1932, 8, 12), True, 6500.00, datetime(2025, 7, 19)),
+    Estudio(2, "Toei Company, Ltd.", ["Keita Goto"], datetime(1951, 4, 1), True, 4200.00, datetime(2024, 12, 7)),
+    Estudio(3, "Shochiku Co., Ltd.", ["Takejirō Ōtani", "Matsujirō Shirai"], datetime(1895, 1, 1), True, 3800.00, datetime(2024, 10, 3)),
+    Estudio(4, "Studio Ghibli", ["Hayao Miyazaki", "Isao Takahata", "Toshio Suzuki"], datetime(1985, 6, 15), True, 3100.00, datetime(2023, 7, 14)),
+    Estudio(5, "Sunrise (Bandai Namco Filmworks)", ["Yoshiyuki Tomino", "Hajime Yatate"], datetime(1972, 9, 1), True, 2900.00, datetime(2024, 5, 22)),
+    Estudio(6, "China Film Group Corporation", ["Gobierno de China"], datetime(1999, 2, 1), True, 8500.00, datetime(2025, 2, 10)),
+    Estudio(7, "Huayi Brothers Media", ["Wang Zhongjun", "Wang Zhonglei"], datetime(1994, 1, 1), True, 2600.00, datetime(2024, 9, 18)),
+    Estudio(8, "Beijing Enlight Media", ["Wang Changtian"], datetime(1998, 1, 1), True, 2400.00, datetime(2024, 8, 9)),
+    Estudio(9, "Universal Pictures Japan", ["Comcast", "NBCUniversal"], datetime(2001, 3, 31), True, 570.00, datetime(2025, 6, 14)),
+    Estudio(10, "Toho-Towa", ["Ichizō Kobayashi"], datetime(1928, 1, 1), True, 2100.00, datetime(2024, 11, 2)),
 ]
+
+get_datos(0)
 
