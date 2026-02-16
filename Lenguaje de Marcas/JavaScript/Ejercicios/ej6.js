@@ -7,8 +7,8 @@ form.addEventListener("submit", (event) => {
     const num = document.getElementById("numero").value
 
     if (num % 2 === 0) {
-        resultado.textContent = `Es primo`;
+        resultado.textContent = `Par`;
     } else {
-        resultado.textContent = `No es primo`;
+        resultado.textContent = `Impar`;
     }
 })
