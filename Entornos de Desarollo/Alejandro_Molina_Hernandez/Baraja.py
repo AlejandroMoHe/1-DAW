@@ -4,15 +4,15 @@ from Carta import Carta
 
 class Baraja:
     def __init__(self):
-        self.a1 = [Carta(v, p) for v in range(2, 15) for p in ["♠", "♥", "♦", "♣"]]
-        random.shuffle(self.a1)
+        self.mazo = [Carta(valor, palo) for valor in range(2, 15) for palo in ["♠", "♥", "♦", "♣"]]
+        random.shuffle(self.mazo)
 
-    def m1(self):
-        if not self.a1:
+    def robar_carta(self):
+        if not self.mazo:
             return None
-        return self.a1.pop()
+        return self.mazo.pop()
 
-    def m2(self, n: int):
-        if len(self.a1) < n:
+    def mostrar(self, num: int):
+        if len(self.mazo) < num:
             return None
-        return [self.m1() for _ in range(n)]
+        return [self.robar_carta() for _ in range(num)]

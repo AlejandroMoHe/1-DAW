@@ -5,22 +5,22 @@ from Baraja import Baraja
 b = Baraja()
 
 while True:
-    if len(b.a1) < 5:
+    if len(b.mazo) < 5:
         print("Sin cartas suficientes. Fin.")
         break
 
-    x = input("1 = robar | 0 = salir: ")
-    if x == "0":
+    opcion = input("1 = robar | 0 = salir: ")
+    if opcion == "0":
         break
-    if x != "1":
+    if opcion != "1":
         continue
 
-    cartas = b.m2(5)
+    cartas = b.mostrar(5)
     if cartas is None:
         print("Sin cartas suficientes. Fin.")
         break
 
-    m = Mano(cartas)
-    print(m)
-    print(m.m1())
-    print(m.m2())
+    mano = Mano(cartas)
+    print(mano)
+    print(mano.ordenar_mano())
+    print(mano.jugada())
