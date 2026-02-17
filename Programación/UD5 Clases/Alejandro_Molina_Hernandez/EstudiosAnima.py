@@ -19,4 +19,4 @@ class Estudio:
     
 
     def __str__(self):
-        return f"ID: {self.id} | {self.nombre} | {self.ganancias} millones"
+        return f"ID: {self.id} | {self.nombre} | {self.ganancias} millones (€)"

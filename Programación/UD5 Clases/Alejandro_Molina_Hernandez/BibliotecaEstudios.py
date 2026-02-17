@@ -4,12 +4,14 @@ class BibliotecaEstudios:
     def __init__(self, id: int, titulo: str, estudios: list[Estudio]):
         self.id = id
         self.titulo = titulo
-        self.estudios = estudios
+        if len(estudios) > 0:
+            self.estudios = estudios
     
 
-    def añadir_estudio(self, e: Estudio) -> None:
+    def añadir(self, e: Estudio) -> None:
         self.estudios.append(e)
     
+
     def eliminar_estudio(self, id: int) -> bool:
         for e in self.estudios:
             if e.id == id:
@@ -17,23 +19,42 @@ class BibliotecaEstudios:
                 return True
         return False
     
-    def actualiza_estado(self):
+
+    def actualiza_estado(cambio: str, eleccion: int) -> None:
+        eleccion = input(int("Que estudio quieres cambiar?"))
+        cambio = input("Sigue abierto el estudio?(S/N) ")
+
+        if cambio == "S" and Estudio.id == eleccion:
+            Estudio.abierto == True
+        elif cambio == "N" and Estudio.id == eleccion:
+            Estudio.abierto == False
+
+
+    def cambia_nombre(nuevo: str) -> None:
+        eleccion = input("Que estudio quieres cambiarle el nombre?")
+        nuevo = input(int("Escribe el nuevo nombre: "))
+        if eleccion == Estudio.id:
+            Estudio.nombre = nuevo
+
+
+    def menor_ganacia():
         pass
 
-    def cambia_nombre(self):
+
+    def ordenar_apertura():
+        sorted(Estudio.fecha_apertura)
+
+
+    def tiempo_abierto():
         pass
 
-    def menor_ganacia(self):
+
+    def estreno_hoy():
         pass
 
-    def ordenar_apertura(self):
-        pass
-
-    def tiempo_abierto(self):
-        pass
-
-    def estreno_hoy(self):
-        pass
 
     def __str__(self):
-        pass
+        str_biblioteca = f"{self.id} | {self.titulo}"
+        for e in self.estudios:
+            str_biblioteca += f"{e}\n"
+        return str_biblioteca
