@@ -1,4 +1,5 @@
 from EstudiosAnima import Estudio
+from datetime import datetime
 
 class BibliotecaEstudios:
     def __init__(self, id: int, titulo: str, estudios: list[Estudio]):
@@ -20,37 +21,42 @@ class BibliotecaEstudios:
         return False
     
 
-    def actualiza_estado(cambio: str, eleccion: int) -> None:
-        eleccion = input(int("Que estudio quieres cambiar?"))
-        cambio = input("Sigue abierto el estudio?(S/N) ")
-
-        if cambio == "S" and Estudio.id == eleccion:
-            Estudio.abierto == True
-        elif cambio == "N" and Estudio.id == eleccion:
-            Estudio.abierto == False
+    def actualiza_estado(self, opcion: int, cambio: str) -> None:
+        for e in self.estudios:
+            if cambio == "S" and e.id == opcion:
+                e.abierto == True
+            elif cambio == "N" and e.id == opcion:
+                e.abierto == False
 
 
-    def cambia_nombre(nuevo: str) -> None:
-        eleccion = input("Que estudio quieres cambiarle el nombre?")
-        nuevo = input(int("Escribe el nuevo nombre: "))
-        if eleccion == Estudio.id:
-            Estudio.nombre = nuevo
+    def cambia_nombre(self, nuevo: str, eleccion: int) -> bool:
+        for e in self.estudios:
+            if eleccion == e.id:
+                e.nombre = nuevo
+                return True
+            return False
 
 
-    def menor_ganacia():
-        pass
+    def mayor_ganacia(self):
+        return max(self.estudios, key=lambda e: e.ganancias)
 
 
-    def ordenar_apertura():
-        sorted(Estudio.fecha_apertura)
+    def ordenar_apetura(self):
+        sorted()
 
 
-    def tiempo_abierto():
-        pass
+    def tiempo_abierto(self):
+        for e in self.estudios:
+            if e.abierto == True and e.fecha_cierre == None:
+                print(f"{e.nombre} lleva abierto por {e.fecha_apertura - datetime.now}")
+            else:
+                print(f"{e.nombre} estuvo abierto por {e.fecha_apertura - e.fecha_cierre}")
 
 
-    def estreno_hoy():
-        pass
+    def dias_desde_estreno(self) -> datetime:
+        for e in self.estudios:
+            contador = e.fecha_apertura - datetime.now
+            print(f"El último estreno de {e.nombre} fue hace {contador}")
 
 
     def __str__(self):
