@@ -20,7 +20,7 @@ class Almacen:
             if m.id == id_mantecado:
                 self.mantecados.remove(m)
                 return True
-            return False
+        return False
 
     def mantecados_caducados(self) -> list[Mantecado]:
         caducados = []

@@ -22,6 +22,7 @@ class Mantecado:
         return dias.days
 
     def esta_caducado(self) -> bool:
+        #Forma más simple: return dias_para_caducar < 0
         if self.fecha_caducidad < date.today():
             return True
         else:

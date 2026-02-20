@@ -1,5 +1,5 @@
 from EstudiosAnima import Estudio
-from datetime import datetime
+from datetime import date
 
 class BibliotecaEstudios:
     def __init__(self, id: int, titulo: str, estudios: list[Estudio]):
@@ -9,7 +9,7 @@ class BibliotecaEstudios:
             self.estudios = estudios
     
 
-    def añadir(self, e: Estudio) -> None:
+    def añadir_estudio(self, e: Estudio) -> None:
         self.estudios.append(e)
     
 
@@ -48,14 +48,14 @@ class BibliotecaEstudios:
     def tiempo_abierto(self):
         for e in self.estudios:
             if e.abierto == True and e.fecha_cierre == None:
-                print(f"{e.nombre} lleva abierto por {e.fecha_apertura - datetime.now}")
+                print(f"{e.nombre} lleva abierto por {e.fecha_apertura - date.today()}")
             else:
                 print(f"{e.nombre} estuvo abierto por {e.fecha_apertura - e.fecha_cierre}")
 
 
-    def dias_desde_estreno(self) -> datetime:
+    def dias_desde_estreno(self) -> date:
         for e in self.estudios:
-            contador = e.fecha_apertura - datetime.now
+            contador = e.fecha_apertura - date.today()
             print(f"El último estreno de {e.nombre} fue hace {contador}")
 
 

@@ -1,8 +1,8 @@
-from datetime import datetime 
+from datetime import date 
 
 
 class Estudio:
-    def __init__(self, id: int, nombre: str, fundadores: list[str], fecha_apertura: datetime, abierto: bool, fecha_cierre: datetime, ganancias: float, ultimo_estreno: datetime) -> None:
+    def __init__(self, id: int, nombre: str, fundadores: list[str], fecha_apertura: date, abierto: bool, fecha_cierre: date, ganancias: float, ultimo_estreno: date) -> None:
         self.id = id
         self.nombre = nombre
         self.fundadores = fundadores
