@@ -4,5 +4,7 @@ const jugador = 0
 const CPU = 0
 
 botones.addEventListener("submit", (event) =>{
+    event.preventDefault()
+
     
 })

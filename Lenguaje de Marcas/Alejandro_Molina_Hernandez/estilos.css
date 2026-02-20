@@ -1,9 +1,14 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 #partida div{
     background-color: white;
+}
+
+#botones{
+    display: flex;
+    justify-content: flex-end;
 }
