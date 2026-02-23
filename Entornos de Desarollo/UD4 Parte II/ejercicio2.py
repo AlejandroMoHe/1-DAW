@@ -1,7 +1,8 @@
-def contar_superiores(valores, porcentaje):
+def contar_superiores(valores: list[int], porcentaje: float) -> int:
     contador = 0
-    for v in valores:
+
+    for valor in valores:
         limite = max(valores) * porcentaje
-        if v > limite:
+        if valor > limite:
             contador += 1
     return contador

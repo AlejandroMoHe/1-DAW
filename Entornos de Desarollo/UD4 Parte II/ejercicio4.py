@@ -1,4 +1,4 @@
-def resumen_edades(edades):
+def resumen_edades(edades: list[int]) -> int:
     minimo = min(edades)
     maximo = max(edades)
 

@@ -1,9 +1,13 @@
-const form = document.getElementById("formDatos")
 const resultado = document.getElementById("resultado")
 
-form.addEventListener("submit", (event) => {
+document.getElementById("tablaForm").addEventListener("submit", (event) => {
     event.preventDefault()
+    const numero = parseInt(document.getElementById("numero").value)
+    let tabla = `Tabla del ${numero}:\n`
 
-    const num = document.getElementById("numero").value
+    for (let i = 1; i <= 10; i++) {
+        tabla += `${numero} x ${i} = ${numero*i}\n`
+    }
 
+    resultado.textContent = tabla
 })

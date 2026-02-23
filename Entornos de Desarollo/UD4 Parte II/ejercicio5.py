@@ -1,4 +1,4 @@
-def contar_letras(texto):
+def contar_letras(texto:str) -> list:
     res = []
     for c in texto:
         encontrado = False

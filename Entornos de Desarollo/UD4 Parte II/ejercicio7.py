@@ -1,4 +1,4 @@
-def es_primo_horror(n):
+def es_primo_horror(n: int) -> int:
     if n <= 1:
         return False
 
