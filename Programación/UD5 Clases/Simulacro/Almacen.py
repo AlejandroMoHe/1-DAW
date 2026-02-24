@@ -7,7 +7,7 @@ class Almacen:
     def __init__(self, id: int, direccion: str, mantecados: list[Mantecado]):
         self.id = id
         self.direccion = direccion
-        self.mantecados = mantecados
+        self.mantecados = mantecados if mantecados is not None else []
 
     def total_mantecados(self) -> int:
         return len(self.mantecados)
@@ -56,7 +56,11 @@ class Almacen:
 
 
     def reporte_por_ingrediente(self) -> dict[str, int]:
-        pass
+        reporte = ()
+        for m in self.mantecados:
+            for ing in m.ingredientes:
+                reporte[ing] = reporte.get(ing, 0) + 1
+            return reporte
 
     def reporte_por_tipo(self) -> dict[str, int]:
         pass
