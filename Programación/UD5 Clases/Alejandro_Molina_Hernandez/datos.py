@@ -35,5 +35,4 @@ def get_datos(n: int) -> list[Estudio]:
         ]
     ]
 
-print(get_datos(0))
 

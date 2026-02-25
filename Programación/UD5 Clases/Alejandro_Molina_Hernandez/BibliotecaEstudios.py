@@ -42,7 +42,7 @@ class BibliotecaEstudios:
 
 
     def ordenar_apetura(self):
-        sorted()
+        return sorted(self.estudios, key=lambda e: e.fecha_apertura)
 
 
     def tiempo_abierto(self):
