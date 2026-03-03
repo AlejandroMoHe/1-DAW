@@ -5,12 +5,11 @@ class BibliotecaEstudios:
     def __init__(self, id: int, titulo: str, estudios: list[Estudio]):
         self.id = id
         self.titulo = titulo
-        if len(estudios) > 0:
-            self.estudios = estudios
+        self.estudios = estudios if estudios else []
     
 
-    def añadir_estudio(self, e: Estudio) -> None:
-        self.estudios.append(e)
+    def añadir_estudio(self, estudio: Estudio) -> None:
+        self.estudios.append(estudio)
     
 
     def eliminar_estudio(self, id: int) -> bool:
@@ -21,12 +20,12 @@ class BibliotecaEstudios:
         return False
     
 
-    def actualiza_estado(self, opcion: int, cambio: str) -> None:
+    def actualiza_estado(self, id: int, cambio: bool) -> bool:
         for e in self.estudios:
-            if cambio == "S" and e.id == opcion:
-                e.abierto == True
-            elif cambio == "N" and e.id == opcion:
-                e.abierto == False
+            if e.id == id:
+                e.abierto = cambio
+                return True
+        return False
 
 
     def cambia_nombre(self, nuevo: str, eleccion: int) -> bool:
@@ -34,33 +33,49 @@ class BibliotecaEstudios:
             if eleccion == e.id:
                 e.nombre = nuevo
                 return True
-            return False
+        return False
 
 
-    def mayor_ganacia(self):
+    def mayor_ganancia(self):
         return max(self.estudios, key=lambda e: e.ganancias)
+    
+
+    def menor_ganancia(self):
+        return min(self.estudios, key=lambda e: e.ganancias)
 
 
-    def ordenar_apetura(self):
+    def ordenar_apertura(self):
         return sorted(self.estudios, key=lambda e: e.fecha_apertura)
 
 
-    def tiempo_abierto(self):
+    def ordenar_ganancias(self):
+        return sorted(self.estudios, key=lambda e: e.ganancias)
+
+
+    def ordenar_nombre(self):
+        return sorted(self.estudios, key=lambda e: e.nombre)
+    
+
+    def años_abierto(self):
+        resultado = []
+
         for e in self.estudios:
-            if e.abierto == True and e.fecha_cierre == None:
-                print(f"{e.nombre} lleva abierto por {e.fecha_apertura - date.today()}")
+            if e.fecha_cierre is None:
+                años = (date.today() - e.fecha_apertura).days // 365
             else:
-                print(f"{e.nombre} estuvo abierto por {e.fecha_apertura - e.fecha_cierre}")
+                años = (e.fecha_cierre - e.fecha_apertura).days // 365
+
+            resultado.append((e, años))
+        return resultado
 
 
-    def dias_desde_estreno(self) -> date:
-        for e in self.estudios:
-            contador = e.fecha_apertura - date.today()
-            print(f"El último estreno de {e.nombre} fue hace {contador}")
+    def estudios_antiguos(self, año):
+        return [e for e in self.estudios if e.fecha_apertura.year < año]
 
 
     def __str__(self):
         str_biblioteca = f"{self.id} | {self.titulo}"
+        print()
         for e in self.estudios:
             str_biblioteca += f"{e}\n"
         return str_biblioteca
