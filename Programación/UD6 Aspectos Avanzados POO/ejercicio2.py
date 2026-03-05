@@ -13,7 +13,8 @@ class EmpleadoFijo(Empleado):
     
     def trineos(self) -> int:
         hoy = datetime.today()
-        antiguedad = (hoy - self.fecha_inicio).days / 365.25
+        antiguedad = (hoy - self.fecha_inicio).days // 365.25
+        return antiguedad // 3
         
 
 
@@ -23,15 +24,13 @@ class EmpleadoTemporal(Empleado):
         self.fecha_fin = fecha_fin
     
     def meses_restantes(self) -> int:
-        hoy = datetime.today()
-        tiempo_restante = (hoy - self.fecha_fin)
-        return tiempo_restante
-        
+        pass
         
 
     def ampliar_contrato(self, meses: int) -> None:
-        self.fecha_fin + meses
+        pass
 
+    
 if __name__ == "__main__":
     fijo = EmpleadoFijo("Juan", 2022-5-14, 1200)
     temporal = EmpleadoTemporal("Maria", 2024-8-7, 1000, 2026-3-12)
