@@ -1,0 +1,13 @@
+{
+    "guardados": [
+        {
+            "nombre del jugador": "LuckBY",
+            "nivel": 42,
+            "experiencia": 687,
+            "localizacion": "Llanuras",
+            "inventario": ["dagas", "pico", "antorcha"],
+            "dinero": 1278,
+            "misiones completadas": 49
+        }
+    ]
+}

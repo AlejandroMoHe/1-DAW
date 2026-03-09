@@ -1,0 +1,24 @@
+{
+    "modulos": [
+        {
+            "id": 1,
+            "nombre": "Programación"
+        },
+        {
+            "id": 2,
+            "nombre": "Bases de datos"
+        }
+    ],
+    "alumnos": [
+        {
+            "id": 1,
+            "nombre": "Juan",
+            "matriculados": []
+        },
+        {
+            "id": 2,
+            "nombre": "Daniela",
+            "matriculados": []
+        }
+    ]
+}

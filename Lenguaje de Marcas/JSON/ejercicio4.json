@@ -1,0 +1,12 @@
+{
+    "configuraciones": [
+        {
+            "nombre de usuario": "Pedro",
+            "idioma": "Español",
+            "tema": "Oscuro",
+            "tamaño de fuente": 14,
+            "autoguardado": true,
+            "extensiones": [".txt"]
+        }
+    ]
+}
