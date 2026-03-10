@@ -13,12 +13,12 @@
         {
             "id": 1,
             "nombre": "Juan",
-            "matriculados": []
+            "matriculados": [1]
         },
         {
             "id": 2,
             "nombre": "Daniela",
-            "matriculados": []
+            "matriculados": [1, 2]
         }
     ]
 }

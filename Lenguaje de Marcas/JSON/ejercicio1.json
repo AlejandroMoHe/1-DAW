@@ -3,28 +3,28 @@
         {
             "id": 1,
             "nombre": "Benedictinos",
-            "fundadores": ["Benito de Nursia"],
+            "fundadores": "Benito de Nursia",
             "siglo_fundacion": "VI",
             "numero_miembros": 7000
         },
         {
             "id": 2,
             "nombre": "Franciscanos",
-            "fundadores": ["Francisco de Asís"],
+            "fundadores": "Francisco de Asís",
             "siglo_fundacion": "XIII",
             "numero_miembros": 15000
         },
         {
             "id": 3,
             "nombre": "Dominicos",
-            "fundadores": ["Domingo de Guzmán"],
+            "fundadores": "Domingo de Guzmán",
             "siglo_fundacion": "XIII",
             "numero_miembros": 6000
         },
         {
             "id": 4,
             "nombre": "Jesuítas",
-            "fundadores": ["Ignacio de Loyola"],
+            "fundadores": "Ignacio de Loyola",
             "siglo_fundacion": "XVI",
             "numero_miembros": 16000
         }
