@@ -8,13 +8,14 @@ class CuentaCorriente(Cuenta):
 
     
     def puede_retirar(self, cantidad: float) -> bool:
-        return cantidad < self.limite_descubierto
+        return self.saldo - cantidad >= self.limite_descubierto
     
     def retirar(self, cantidad: float) -> None:
-        descubierto = self.limite_descubierto * -1
-
-        if self.saldo <= cantidad and cantidad < descubierto:
-            self.saldo - cantidad
+        if self.puede_retirar(cantidad):
+            self.saldo -= cantidad
+            return True
+        return False
 
     def __str__(self):
-        return f"Cuenta Corriente | Titular: {self.titular} | Nº: {self.numero_cuenta} | Saldo: {self.saldo}€ | Descubierto: {self.limite_descubierto}€"
+        base = super().__str__().replace("Cuenta", "Cuenta Corriente")
+        return f"{base} | Descubierto: {self.limite_descubierto:.2f}€"

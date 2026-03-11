@@ -12,4 +12,5 @@ class CuentaAhorro(Cuenta):
     
     
     def __str__(self):
-        return f"Cuenta Ahorro | Titular: {self.titular} | Nº: {self.numero_cuenta} | Saldo: {self.saldo}€ | Interés: {self.interes_anual}%"
+        base = super().__str__().replace("Cuenta", "Cuenta Ahorro")
+        return f"{base} | Interés: {self.interes_anual}%"

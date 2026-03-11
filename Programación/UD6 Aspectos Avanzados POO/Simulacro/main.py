@@ -2,8 +2,8 @@ from CuentaCorriente import CuentaCorriente
 from CuentaAhorro import CuentaAhorro
 
 cuenta1 = CuentaCorriente("Ana López", "ES001", 500.0, 300.0)
-cuenta_copia = CuentaCorriente("Ana López", "ES001", 500.0, 300.0)
 cuenta2 = CuentaCorriente("Carlos Ruíz", "ES002", 100.0, 200.0)
+
 cuenta3 = CuentaAhorro("Marta Gómez", "ES003", 1000.0, 2.5)
 cuenta4 = CuentaAhorro("Luis Torres", "ES004", 2500.0, 3.0)
 
@@ -12,22 +12,23 @@ print(cuenta1)
 print(cuenta2)
 print(cuenta3)
 print(cuenta4)
-print()
-print("=== INGRESOS (200€ para Ana y 500€ para Marta) ===")
+
+print("\n=== INGRESOS (200€ para Ana y 500€ para Marta) ===")
 cuenta1.ingresar(200)
 cuenta3.ingresar(500)
 print(cuenta1)
 print(cuenta3)
-print()
-print("=== INTERESES ===")
+
+print("\n=== INTERESES ===")
 cuenta4.aplicar_intereses()
 print(cuenta4)
-print()
-print("=== COBRO COMISION ===")
+
+print("\n=== COBRO COMISION ===")
 cuenta1.cobrar_comision()
 cuenta3.cobrar_comision()
 print(cuenta1)
 print(cuenta3)
-print()
-print("=== COMPROBAR IGUALDAD Y HASH ===")
+
+print("\n=== COMPROBAR IGUALDAD Y HASH ===")
+cuenta_copia = CuentaCorriente("Francisco", "ES001", 500.0, 300.0)
 print()
