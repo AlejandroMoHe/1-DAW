@@ -1,0 +1,84 @@
+{
+    "cartas" : [
+        {
+            "id": 1,
+            "nombre": "Arañazo",
+            "tipo_carta": "Ataque",
+            "coste": 2,
+            "descripción": "Al usar esta carta el oponente pierde 3",
+            "efectos": [
+                "Inflinge daño"
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Susto",
+            "tipo_carta": "Habilidad",
+            "coste": 3,
+            "descripción": "Aumenta la velocidad al portador y confunde al oponente, el efecto aumenta dependiendo del contrincante",
+            "efectos": [
+                "Aumenta velocidad"
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Golpe de palanca",
+            "tipo_carta": "Ataque",
+            "coste": 2,
+            "descripción": "Al usar esta carta el oponente pierde 3",
+            "efectos": [
+                "Inflinge daño"
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Linterna",
+            "tipo_carta": "Habilidad",
+            "coste": 3,
+            "descripción": "Aumenta la velocidad al portador y confunde al oponente, el efecto aumenta dependiendo del contrincante",
+            "efectos": [
+                "Aumenta velocidad"
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "Engranaje",
+            "tipo_carta": "Habilidad",
+            "coste": 2,
+            "descripción": "Cura 10 de vida",
+            "efectos": [
+                "Cura vida"
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Pizza",
+            "tipo_carta": "Habilidad",
+            "coste": 2,
+            "descripción": "Cura 10 de vida",
+            "efectos": [
+                "Cura vida"
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "Drenaje",
+            "tipo_carta": "Poder",
+            "coste": 6,
+            "descripción": "Roba una cantidad aleatoria de las Faz-coins del oponente",
+            "efectos": [
+                "Roba dinero"
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Puerta",
+            "tipo_carta": "Poder",
+            "coste": 4,
+            "descripción": "Bloquea la accion del oponente",
+            "efectos": [
+                "Bloqueo de ataque"
+            ]
+        }
+    ]
+}
