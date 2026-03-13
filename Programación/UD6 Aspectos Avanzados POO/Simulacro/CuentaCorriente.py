@@ -10,7 +10,7 @@ class CuentaCorriente(Cuenta):
     def puede_retirar(self, cantidad: float) -> bool:
         return self.saldo - cantidad >= self.limite_descubierto
     
-    def retirar(self, cantidad: float) -> None:
+    def retirar(self, cantidad: float) -> bool:
         if self.puede_retirar(cantidad):
             self.saldo -= cantidad
             return True
