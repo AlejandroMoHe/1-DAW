@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modulos>
+
+    <modulo>
+
+        <id>1</id>
+        <nombre>Programación</nombre>
+    
+    </modulo>
+
+    <modulo>
+
+        <id>2</id>
+        <nombre>Bases de datos</nombre>
+    
+    </modulo>
+</modulos>
+
+<alumnos>
+    <alumno>
+
+        <id>1</id>
+        <nombre>Juan</nombre>
+        <matriculaciones>
+            <matricula>1</matricula>
+        </matriculaciones>
+    
+    </alumno>
+
+    <alumno>
+
+        <id>2</id>
+        <nombre>Daniela</nombre>
+        <matriculaciones>
+            <matricula>1</matricula>
+            <matricula>2</matricula>
+        </matriculaciones>
+    
+    </alumno>
+</alumnos>

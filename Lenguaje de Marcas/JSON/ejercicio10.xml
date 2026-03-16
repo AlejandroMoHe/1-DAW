@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<guardados>
+
+    <guardado>
+    
+        <nombre_jugador>LuckBY</nombre_jugador>
+        <nivel>42</nivel>
+        <experiencia>687</experiencia>
+        <localizacion>Llanuras</localizacion>
+        <inventario>
+
+            <objeto>dagas</objeto>
+            <objeto>pico</objeto>
+            <objeto>antorcha</objeto>
+
+        </inventario>
+        <dinero>1278</dinero>
+        <misiones_completadas>49</misiones_completadas>
+
+    </guardado>
+
+</guardados>

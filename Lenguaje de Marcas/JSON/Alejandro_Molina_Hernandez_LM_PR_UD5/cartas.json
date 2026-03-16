@@ -79,6 +79,16 @@
             "efectos": [
                 "Bloqueo de ataque"
             ]
+        },
+        {
+            "id": 9,
+            "nombre": "Máscara",
+            "tipo_carta": "Habilidad",
+            "coste": 6,
+            "descripción": "Es posible pasar desapercibido afecta a todos menos a humanos y un tipo de robot",
+            "efectos": [
+                "Roba dinero"
+            ]
         }
     ]
 }

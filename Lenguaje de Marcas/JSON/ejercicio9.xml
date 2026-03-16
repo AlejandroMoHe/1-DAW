@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuraciones>
+
+    <configuracion>
+    
+        <nombre_usuario>Pedro</nombre_usuario>
+        <idioma>Español</idioma>
+        <tema>Oscuro</tema>
+        <tamaño_fuente>14</tamaño_fuente>
+        <autoguardado>true</autoguardado>
+        <extensiones>
+
+            <extension>corrector</extension>
+
+        </extensiones>
+
+    </configuracion>
+
+</configuraciones>
