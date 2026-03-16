@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<modulos>
+<curso>
+    <modulos>
 
-    <modulo>
+        <modulo>
 
-        <id>1</id>
-        <nombre>Programación</nombre>
-    
-    </modulo>
+            <id>1</id>
+            <nombre>Programación</nombre>
+        
+        </modulo>
 
-    <modulo>
+        <modulo>
 
-        <id>2</id>
-        <nombre>Bases de datos</nombre>
-    
-    </modulo>
-</modulos>
+            <id>2</id>
+            <nombre>Bases de datos</nombre>
+        
+        </modulo>
+    </modulos>
 
-<alumnos>
-    <alumno>
+    <alumnos>
+        <alumno>
 
-        <id>1</id>
-        <nombre>Juan</nombre>
-        <matriculaciones>
-            <matricula>1</matricula>
-        </matriculaciones>
-    
-    </alumno>
+            <id>1</id>
+            <nombre>Juan</nombre>
+            <matriculaciones>
+                <matricula>1</matricula>
+            </matriculaciones>
+        
+        </alumno>
 
-    <alumno>
+        <alumno>
 
-        <id>2</id>
-        <nombre>Daniela</nombre>
-        <matriculaciones>
-            <matricula>1</matricula>
-            <matricula>2</matricula>
-        </matriculaciones>
-    
-    </alumno>
-</alumnos>
+            <id>2</id>
+            <nombre>Daniela</nombre>
+            <matriculaciones>
+                <matricula>1</matricula>
+                <matricula>2</matricula>
+            </matriculaciones>
+        
+        </alumno>
+    </alumnos>
+</curso>
