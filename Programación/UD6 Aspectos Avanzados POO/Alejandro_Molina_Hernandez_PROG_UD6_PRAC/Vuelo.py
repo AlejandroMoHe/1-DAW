@@ -46,5 +46,5 @@ class Vuelo:
 
 
     def __str__(self):
-        return f"{self.nombre} -- {self.empresa} -- {self.piloto} -- {self.tripulacion} -- {self.pasajeros}"
+        return f"Vuelo {self.nombre} -- {self.empresa} -- {self.piloto} -- {self.tripulacion} -- {self.pasajeros}"
     

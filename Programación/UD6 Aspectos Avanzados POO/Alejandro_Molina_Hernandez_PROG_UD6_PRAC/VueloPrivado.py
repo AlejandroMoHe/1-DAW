@@ -5,3 +5,7 @@ class VueloPrivado(Vuelo):
         super().__init__(nombre, empresa, piloto, tripulacion, pasajeros)
         self.cliente = cliente
         self.servicios = servicios
+
+    def __str__(self):
+        base = super().__str__().replace("Vuelo", "Vuelo Privado")
+        return f"{base} -- {self.cliente} -- {self.servicios}"

@@ -65,7 +65,7 @@
             "nombre": "Drenaje",
             "tipo_carta": "Poder",
             "coste": 6,
-            "descripción": "Roba una cantidad aleatoria de las Faz-coins del oponente",
+            "descripción": "Roba una cantidad aleatoria de Faz-coins del oponente",
             "efectos": [
                 "Roba dinero"
             ]
@@ -87,7 +87,7 @@
             "coste": 6,
             "descripción": "Es posible pasar desapercibido afecta a todos menos a humanos y un tipo de robot",
             "efectos": [
-                "Roba dinero"
+                "Invisibilidad"
             ]
         }
     ]
