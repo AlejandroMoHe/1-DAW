@@ -1,0 +1,2 @@
+tablas=7
+preguntas=5

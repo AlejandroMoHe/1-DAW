@@ -1,9 +1,9 @@
-with open("quijote.txt", "r", encoding="utf-8") as f:
-    contador = 0
-    lineas_total = 0
-    for linea in f:
-        lineas_total += 1
-        for caracter in linea:
-            contador += 1
+linea_mas_larga = ""
+max_longitud = 0
 
-    media = contador / lineas_total
+with open("quijote.txt", "r", encoding="utf-8") as f:
+    for linea in f:
+        longitud = len(linea)
+        if longitud > max_longitud:
+            max_longitud = longitud
+            linea_mas_larga = linea
