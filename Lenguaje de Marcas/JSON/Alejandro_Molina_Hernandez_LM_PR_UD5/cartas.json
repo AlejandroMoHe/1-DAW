@@ -42,12 +42,12 @@
         },
         {
             "id": 5,
-            "nombre": "Engranaje",
+            "nombre": "Regalo",
             "tipo_carta": "Habilidad",
             "coste": 2,
             "descripción": "Cura 10 de vida",
             "efectos": [
-                "Cura vida"
+                "Curar"
             ]
         },
         {
@@ -57,7 +57,7 @@
             "coste": 2,
             "descripción": "Cura 10 de vida",
             "efectos": [
-                "Cura vida"
+                "Curar"
             ]
         },
         {
@@ -67,7 +67,7 @@
             "coste": 6,
             "descripción": "Roba una cantidad aleatoria de Faz-coins del oponente",
             "efectos": [
-                "Roba dinero"
+                "Robar dinero"
             ]
         },
         {
@@ -77,7 +77,7 @@
             "coste": 4,
             "descripción": "Bloquea la accion del oponente",
             "efectos": [
-                "Bloqueo de ataque"
+                "Bloqueo"
             ]
         },
         {
@@ -85,9 +85,21 @@
             "nombre": "Máscara",
             "tipo_carta": "Habilidad",
             "coste": 6,
-            "descripción": "Es posible pasar desapercibido afecta a todos menos a humanos y un tipo de robot",
+            "descripción": "Es posible pasar desapercibido, no te pueden ver los robots",
             "efectos": [
                 "Invisibilidad"
+            ]
+        },
+        {
+            "id": 10,
+            "nombre": "Resortes",
+            "tipo_carta": "Poder",
+            "coste": 10,
+            "descripción": "Quita un 10 puntos de vida a los robots y 45 a los humanos ",
+            "efectos": [
+                "Inflinge daño",
+                "Debilidad",
+                "Sangrado"
             ]
         }
     ]

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<personajes>
+
+    <personaje>
+        <nombre>Mike Schmidt</nombre>
+        <clase>Guardia nocturno</clase>
+        <raza>Humano</raza>
+        <nivel>9</nivel>
+        <vida>80, 100</vida>
+        <dinero_disponible>80</dinero_disponible>
+        <zona_del_mapa>3562, 85, 167</zona_del_mapa>
+        <partida_activa>true</partida_activa>
+        <mazo>
+            <carta>Golpe de palanca</carta>
+            <carta>Linterna</carta>
+            <carta>Pizza</carta>
+            <carta>Puerta</carta>
+            <carta>Máscara</carta>
+        </mazo>
+    </personaje>
+
+    <personaje>
+        <nombre>William Afton</nombre>
+        <clase>Asesino</clase>
+        <raza>Humano</raza>
+        <nivel>15</nivel>
+        <vida>60, 100</vida>
+        <dinero_disponible>1000</dinero_disponible>
+        <zona_del_mapa>2578, 72, 98</zona_del_mapa>
+        <partida_activa>false</partida_activa>
+        <mazo>
+            <carta>Golpe de palanca</carta>
+            <carta>Linterna</carta>
+            <carta>Pizza</carta>
+            <carta>Puerta</carta>
+            <carta>Máscara</carta>
+            <carta>Resortes</carta>
+        </mazo>
+    </personaje>
+
+    <personaje>
+        <nombre>Marionette</nombre>
+        <clase>Ilusionista</clase>
+        <raza>Animatronico</raza>
+        <nivel>16</nivel>
+        <vida>90, 100</vida>
+        <dinero_disponible>150</dinero_disponible>
+        <zona_del_mapa>2397, 47, 106</zona_del_mapa>
+        <partida_activa>false</partida_activa>
+        <mazo>
+            <carta>Arañazo</carta>
+            <carta>Susto</carta>
+            <carta>Regalo</carta>
+            <carta>Drenaje</carta>
+            <carta>Resortes</carta>
+        </mazo>
+    </personaje>
+
+    <personaje>
+        <nombre>Foxy</nombre>
+        <clase>Velocista</clase>
+        <raza>Animatronico</raza>
+        <nivel>10</nivel>
+        <vida>80, 100</vida>
+        <dinero_disponible>80</dinero_disponible>
+        <zona_del_mapa>3562, 85, 167</zona_del_mapa>
+        <partida_activa>true</partida_activa>
+        <mazo>
+            <carta>Arañazo</carta>
+            <carta>Susto</carta>
+            <carta>Regalo</carta>
+            <carta>Drenaje</carta>
+            <carta>Resortes</carta>
+        </mazo>
+    </personaje>
+
+</personajes>
+
+
+<cuentas>
+
+    <cuenta>
+        <identificador>64</identificador>
+        <nombre_usuario>Alejandro</nombre_usuario>
+        <nivel>32</nivel>
+        <experiencia_acumulada>158</experiencia_acumulada>
+        <fecha_creación>18/03/2026</fecha_creación>
+        <fecha_ultimo_acceso>20/03/2026</fecha_ultimo_acceso>
+        <pase_batalla>true</pase_batalla>
+        <logros_desbloqueados>
+            <logro>A mi no me engañas</logro>
+            <logro>Bancarota</logro>
+            <logro>La primera de muchas</logro>
+        </logros_desbloqueados>
+        <personajes>
+            <personaje>Mike Schmidt</personaje>
+            <personaje>Foxy</personaje>
+        </personajes>
+
+    </cuenta>
+
+</cuentas>

@@ -22,8 +22,8 @@ class CarritoCompra:
     def calcular_total(self) -> float:
         total = 0
 
-        for _ in self.productos:
-            total += total  
+        for p in self.productos:
+            total += p.precio  
 
         return total
 

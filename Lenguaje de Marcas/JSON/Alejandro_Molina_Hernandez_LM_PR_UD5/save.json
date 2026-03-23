@@ -1,0 +1,61 @@
+{
+    "personajes" : [
+        {
+            "nombre" : "Mike Schmidt",
+            "clase": "Guarda nocturno",
+            "raza": "Humano",
+            "nivel": 9,
+            "vida": [80, 100],
+            "dinero disponible": 80,
+            "zona del mapa": [3562, 85, 167],
+            "partida_activa": true,
+            "mazo": ["Golpe de palanca", "Linterna", "Pizza", "Puerta", "Máscara"]
+        },
+        {
+            "nombre" : "William Afton",
+            "clase": "Asesino",
+            "raza": "Humano",
+            "nivel": 15,
+            "vida": [60, 100],
+            "dinero disponible": 1000,
+            "zona del mapa": [2578, 72, 98],
+            "partida_activa": false,
+            "mazo": ["Golpe de palanca", "Linterna", "Pizza", "Puerta", "Máscara", "Resortes"]
+        },
+        {
+            "nombre" : "Marionette",
+            "clase": "Ilusionista",
+            "raza": "Animatronico",
+            "nivel": 16,
+            "vida": [90, 100],
+            "dinero disponible": 150,
+            "zona del mapa": [2397, 47, 106],
+            "partida_activa": false,
+            "mazo": ["Arañazo", "Susto", "Drenaje", "Regalo", "Resortes"]
+        },
+        {
+            "nombre" : "Foxy",
+            "clase": "Velocista",
+            "raza": "Animatronico",
+            "nivel": 10,
+            "vida": [80, 100],
+            "dinero disponible": 80,
+            "zona del mapa": [3562, 85, 167],
+            "partida_activa": true,
+            "mazo": ["Arañazo", "Susto", "Drenaje", "Regalo", "Resortes"]
+        }
+    ],
+    "cuentas": [
+        {
+            "identificador": 64,
+            "nombre_usuario": "Alejandro",
+            "nivel": 32,
+            "experiencia_acumulada": 158,
+            "fecha_creación": "18/03/2026",
+            "fecha_ultimo_acceso": "20/03/2026",
+            "pase_batalla": true,
+            "logros_desbloqueados": ["A mi no me engañas", "Bancarota", "La primera de muchas"],
+            "personajes": ["Mike Schmidt", "Foxy"]
+        }
+    ]
+}

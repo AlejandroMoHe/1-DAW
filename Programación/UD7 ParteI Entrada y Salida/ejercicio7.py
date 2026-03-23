@@ -7,29 +7,41 @@ def leer_configuracion(nombre_archivo: str) -> dict:
 
     with open(nombre_archivo, "r", encoding="utf-8") as f:
         for linea in f:
-            clave, valor = linea.strip().split("=")
-            config[clave] = valor
-
+            linea = linea.strip()
+            if linea:
+                clave, valor = linea.split("=")
+                config[clave] = valor
     return config
 
-def jugar(config: dict):
+def jugar(tablas: list[int], preguntas: int | str):
+    contador = 0
 
-    tablas = int(config["tablas"])
-    problemas = int(config["preguntas"])
+    while preguntas == "infinito" or contador < preguntas:
 
-    for _ in range(1, problemas):
-        num1 = random.randint(tablas)
-        num2 = random.randint(0, 9)
-        respuesta = int(input(f"{num1} x {num2} = ? "))
-        resultado = num1 * num2
-        if respuesta == resultado:
+        n = random.choice(tablas)
+        m = random.randint(1, 10)
+
+        respuesta = int(input(f"{n} x {m} = ? "))
+
+        if respuesta == n * m:
             print("Correcto")
         else:
-            print(f"Incorrecto. La respuesta es {resultado}")
+            print(f"Incorrecto. La respuesta era {n*m}")
+
+        contador += 1
+
 
 if __name__ == "__main__":
     nombre_archivo = Path(__file__).parent / "config7.txt"
     config = leer_configuracion(nombre_archivo)
-    jugar(config)
+    tablas = [int(x) for x in config["tablas"].split(",")]
+    preguntas_cfg = config["preguntas"]
+    
+    if preguntas_cfg != "infinito":
+        preguntas = int(preguntas_cfg)
+    else:
+        preguntas = "infinito"
+    
+    jugar(tablas, preguntas)
 
 

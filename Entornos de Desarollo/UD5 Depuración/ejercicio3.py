@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
         if opcion == "1":
 
-            vidas = jugar_partida(vidas)
+            jugar_partida(vidas)
 
         elif opcion == "2":
 

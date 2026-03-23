@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cartas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="cartas.xsd">
+    
+    <carta>
+        <id>1</id>
+        <nombre>Arañazo</nombre>
+        <tipo_carta>Ataque</tipo_carta>
+        <coste>2</coste>
+        <descripción>Al usar esta carta el oponente pierde 3</descripción>
+        <efectos>
+            <efecto>Inflinge daño</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>2</id>
+        <nombre>Susto</nombre>
+        <tipo_carta>Habilidad</tipo_carta>
+        <coste>3</coste>
+        <descripción>Aumenta la velocidad al portador y confunde al oponente, el efecto aumenta dependiendo del contrincante</descripción>
+        <efectos>
+            <efecto>Aumenta velocidad</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>3</id>
+        <nombre>Golpe de palanca</nombre>
+        <tipo_carta>Ataque</tipo_carta>
+        <coste>2</coste>
+        <descripción>Al usar esta carta el oponente pierde 3</descripción>
+        <efectos>
+            <efecto>Inflinge daño</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>4</id>
+        <nombre>Linterna</nombre>
+        <tipo_carta>Habilidad</tipo_carta>
+        <coste>3</coste>
+        <descripción>Aumenta la velocidad al portador y confunde al oponente, el efecto aumenta dependiendo del contrincante</descripción>
+        <efectos>
+            <efecto>Aumenta velocidad</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>5</id>
+        <nombre>Regalo</nombre>
+        <tipo_carta>Habilidad</tipo_carta>
+        <coste>2</coste>
+        <descripción>Cura 10 de vida</descripción>
+        <efectos>
+            <efecto>Curar</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>6</id>
+        <nombre>Pizza</nombre>
+        <tipo_carta>Habilidad</tipo_carta>
+        <coste>2</coste>
+        <descripción>Cura 10 de vida</descripción>
+        <efectos>
+            <efecto>Curar</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>7</id>
+        <nombre>Drenaje</nombre>
+        <tipo_carta>Poder</tipo_carta>
+        <coste>6</coste>
+        <descripción>Roba una cantidad aleatoria de Faz-coins del oponente</descripción>
+        <efectos>
+            <efecto>Robar dinero</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>8</id>
+        <nombre>Puerta</nombre>
+        <tipo_carta>Poder</tipo_carta>
+        <coste>4</coste>
+        <descripción>Bloquea la accion del oponente</descripción>
+        <efectos>
+            <efecto>Bloqueo</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>9</id>
+        <nombre>Máscara</nombre>
+        <tipo_carta>Habilidad</tipo_carta>
+        <coste>6</coste>
+        <descripción>Es posible pasar desapercibido, no te pueden ver los robots</descripción>
+        <efectos>
+            <efecto>Invisibilidad</efecto>
+        </efectos>
+    </carta>
+
+    <carta>
+        <id>10</id>
+        <nombre>Resortes</nombre>
+        <tipo_carta>Poder</tipo_carta>
+        <coste>10</coste>
+        <descripción>Quita un 10 puntos de vida a los robots y 45 a los humanos</descripción>
+        <efectos>
+            <efecto>Inflinge daño</efecto>
+            <efecto>Debilidad</efecto>
+            <efecto>Sangrado</efecto>
+        </efectos>
+    </carta>
+
+</cartas>

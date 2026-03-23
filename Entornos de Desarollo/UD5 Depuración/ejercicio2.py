@@ -18,7 +18,7 @@ class Estudiante:
     def ha_aprobado(self) -> bool:
         media = self.calcular_media()
 
-        if media > 5:   # BUG
+        if media >= 5:
             return True
         else:
             return False
