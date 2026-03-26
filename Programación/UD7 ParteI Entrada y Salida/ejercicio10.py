@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 
 
 class Producto:
@@ -13,16 +14,21 @@ class Producto:
 
 if __name__ == "__main__":
 
+    archivo = Path(__file__).parent / "productos.json"
+
     productos = []
 
-    archivo = Path(__file__).parent / "productos.csv"
-
     with open(archivo, "r", encoding="utf-8") as f:
-        next(f)
-        for linea in f:
-            id, nombre, precio, stock = linea.strip().split(",")
-            producto = Producto(int(id), nombre, float(precio), int(stock))
-            productos.append(producto)
+            datos = json.load(f)
 
+            for d in datos:
+                producto = Producto(
+                    d["id"],
+                    d["nombre"],
+                    d["precio"],
+                    d["stock"]
+                )
+                productos.append(producto)
+    
     for p in productos:
         print(p)
