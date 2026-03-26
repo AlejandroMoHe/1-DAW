@@ -1,8 +1,8 @@
 from pathlib import Path
 
 
-lazarillo = Path(__file__).parent / "lazarillo.txt"
-analisis = Path(__file__).parent / "analisis_lazarillo.txt"
+lazarillo = Path(__file__).parent / "datos" / "lazarillo.txt"
+analisis = Path(__file__).parent / "datos" / "analisis_lazarillo.txt"
 
 lineas = 0
 palabras = 0

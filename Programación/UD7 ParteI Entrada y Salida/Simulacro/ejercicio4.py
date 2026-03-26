@@ -2,7 +2,7 @@ from pathlib import Path
 from random import randint
 
 
-configuracion = Path(__file__).parent / "config.txt"
+configuracion = Path(__file__).parent / "datos" / "config.txt"
 dado = ""
 tiradas = 0
 
@@ -31,7 +31,7 @@ while True:
         with open("simulacion.txt", "w", encoding="utf-8") as f:
                 tiradas_simula = int(tiradas)
                 for _ in range(tiradas_simula):
-                    num = randint(1, tiradas_simula+1)
+                    num = randint(1, tiradas_simula)
                     f.write(f"{num}\n")
         print("Simulación realizada correctamente.")
     

@@ -1,0 +1,2 @@
+tipo_dado=20
+num_tiradas=40

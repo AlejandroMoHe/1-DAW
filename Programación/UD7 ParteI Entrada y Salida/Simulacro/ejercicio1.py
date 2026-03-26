@@ -17,7 +17,7 @@ if __name__ == "__main__":
     plantas = []
     total = 0
 
-    archivo = Path(__file__).parent / "vivero.csv"
+    archivo = Path(__file__).parent / "datos" / "vivero.csv"
 
     with open(archivo, "r", encoding="utf-8") as f:
         next(f)

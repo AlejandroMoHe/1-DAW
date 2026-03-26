@@ -13,7 +13,7 @@ class Personaje:
 
 if __name__ == "__main__":
 
-    archivo = Path(__file__).parent / "lol.json"
+    archivo = Path(__file__).parent / "datos" / "lol.json"
 
     personajes = []
 

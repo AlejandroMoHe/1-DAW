@@ -1,2 +1,0 @@
-tipo_dado=d6
-num_tiradas=10
