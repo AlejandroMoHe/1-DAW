@@ -10,7 +10,9 @@ while True:
     with open(configuracion, "r", encoding="utf-8") as f:
     
         for linea in f:
+            linea = linea.strip()
             separados = linea.split("=")
+            
             if separados[0] == "tipo_dado":
                 dado = separados[1]
             elif separados[0] == "num_tiradas":

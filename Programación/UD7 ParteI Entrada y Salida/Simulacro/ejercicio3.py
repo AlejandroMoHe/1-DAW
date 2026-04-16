@@ -24,4 +24,4 @@ with open(lazarillo, "r", encoding="utf-8") as f:
 
 
 with open(analisis, "w", encoding="utf-8") as f:
-    f.write(f"Líneas: {lineas}\nPalabras: {palabras}\nLetras: {letras}\nLínea más larga: {linea_mas_larga}")
+    f.write(f"Líneas: {lineas}\nPalabras: {palabras}\nLetras: {letras}\nLínea más larga: {linea_mas_larga}\n")
