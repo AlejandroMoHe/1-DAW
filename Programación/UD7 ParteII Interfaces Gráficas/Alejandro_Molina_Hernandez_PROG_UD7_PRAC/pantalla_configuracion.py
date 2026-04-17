@@ -1,5 +1,3 @@
-# pantalla_configuracion.py
-
 import tkinter as tk
 import json
 import os

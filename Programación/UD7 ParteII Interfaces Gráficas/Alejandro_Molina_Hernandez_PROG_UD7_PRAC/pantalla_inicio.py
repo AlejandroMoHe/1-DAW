@@ -1,5 +1,3 @@
-# pantalla_inicio.py
-
 import tkinter as tk
 
 class PantallaInicio(tk.Frame):

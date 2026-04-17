@@ -1,5 +1,3 @@
-# pantalla_quiz.py
-
 import tkinter as tk
 import json
 import os
@@ -13,24 +11,44 @@ class PantallaQuiz(tk.Frame):
 
         self.preguntas = [
             {
-                "acertijo": "Tengo el cuello muy largo y manchas por todo el cuerpo. ¿Qué animal soy?",
-                "respuesta": "jirafa"
+                "acertijo": "No soy felino, pero cazó en equipo, no soy perro, pero aúllo en lo frío. Mis ojos brillan en la oscuridad, y en manada aumento mi fuerza y verdad. ¿Quién soy?",
+                "respuesta": "lobo"
             },
             {
-                "acertijo": "Soy el rey de la selva y tengo melena. ¿Qué animal soy?",
-                "respuesta": "leon"
+                "acertijo": "No soy pez, pero vivo en el mar, no soy roca, pero puedo “camuflar”. No tengo cerebro como lo esperas tú, y aun así sobrevivo en el azul. ¿Quién soy?",
+                "respuesta": "esponja de mar"
             },
             {
-                "acertijo": "Tengo ocho brazos y vivo en el mar. ¿Qué animal soy?",
-                "respuesta": "pulpo"
+                "acertijo": "No soy insecto, pero muchos me llaman “plaga”, no soy ave, pero viajo en bandadas. Tengo patas, pero casi no las ves, y donde aparezco, sobra lo que comés. ¿Quién soy?",
+                "respuesta": "langosta"
             },
             {
-                "acertijo": "Salto mucho, tengo una bolsa y vivo en Australia. ¿Qué animal soy?",
-                "respuesta": "canguro"
+                "acertijo": "No soy gato, pero acecho en silencio, no soy perro, pero sigo el rastro atento. Vivo entre sombras, experto cazador, y mi mirada impone temor. ¿Quién soy?",
+                "respuesta": "leopardo"
             },
             {
-                "acertijo": "Tengo rayas negras y blancas y me parezco a un caballo. ¿Qué animal soy?",
-                "respuesta": "cebra"
+                "acertijo": "No tengo manos, pero dejo huella, mi casa viaja conmigo y me sella. No huyo rápido, pero siempre avanzo, y en la lluvia es cuando más descanso. ¿Quién soy?",
+                "respuesta": "caracol"
+            },
+            {
+                "acertijo": "De noche salgo a volar, mis ojos grandes todo ven sin par. No canto como el gallo al amanecer, pero en la oscuridad te puedo sorprender. Giro la cabeza sin casi mover el cuerpo, ¿Quién soy?",
+                "respuesta": "buho"
+            },
+            {
+                "acertijo": "No soy ave, pero tengo plumas, no vuelo alto, pero hago sumas. Vivo en frío extremo sin dudar, y el hielo es mi hogar natural. ¿Quién soy?",
+                "respuesta": "pinguino"
+            },
+            {
+                "acertijo": "Escalo sin temor, mi cola me ayuda a mantener el valor. Soy rápido entre ramas al saltar, y en la selva me puedes encontrar. ¿Quién soy?",
+                "respuesta": "mono"
+            },
+            {
+                "acertijo": "Tengo manchas, no soy perro, pero corro sin trancas. Mi risa suena a locura total, y soy cazador social brutal. ¿Quién soy?",
+                "respuesta": "hiena"
+            },
+            {
+                "acertijo": "No soy ave, pero tengo pico fuerte, no soy reptil, pero pongo huevos sin suerte. Uso electricidad como sentido especial, y mi aspecto parece irreal.¿Quién soy?",
+                "respuesta": "ornitorrinco"
             }
         ]
 

@@ -8,7 +8,7 @@ class Aplicacion(tk.Tk):
         super().__init__()
 
         self.title("Quiz de Animales")
-        self.geometry("700x500")
+        self.geometry("1020x700")
         self.resizable(True, True)
 
         contenedor = tk.Frame(self)

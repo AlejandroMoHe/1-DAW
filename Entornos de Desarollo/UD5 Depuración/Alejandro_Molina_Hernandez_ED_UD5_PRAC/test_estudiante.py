@@ -1,24 +1,23 @@
-from estudiante import Estudiante
 import unittest
+from estudiante import Estudiante
 
 
 class TestEstudiante(unittest.TestCase):
-    
-    def test_promocionar(self):
-        pass
 
+    def test_promocionar(self):
+        estudiante = Estudiante(1, "Juan", [5, 6])
+        self.assertTrue(estudiante.promocionar())
 
     def test_media(self):
-        self.assertEqual(Estudiante.media(), 4)
-        self.assertAlmostEqual(Estudiante.media(), 1.5)
-    
-    
+        estudiante = Estudiante(3, "Luis", [4, 6])
+        self.assertEqual(estudiante.media(), 5)
+
     def test_añadir_nota(self):
-        pass
+        estudiante = Estudiante(5, "Carlos", [5, 6])
+        estudiante.anadir_nota(7)
+
+        self.assertEqual(estudiante.notas, [5, 6, 7])
 
 
 if __name__ == "__main__":
-
-    alumno = Estudiante(1, "Juan", [4, 5, 6])
-
     unittest.main()
