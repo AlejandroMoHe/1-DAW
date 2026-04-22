@@ -6,17 +6,21 @@ class PantallaInicio(tk.Frame):
 
         self.controller = controller
 
+        self.configure(bg="lightblue")
+
         titulo = tk.Label(
             self,
             text="Quiz de Animales",
-            font=("Arial", 24, "bold")
+            font=("Arial", 24, "bold"),
+            bg="lightblue"
         )
         titulo.pack(pady=40)
 
         descripcion = tk.Label(
             self,
             text="Resuelve acertijos sobre animales.",
-            font=("Arial", 14)
+            font=("Arial", 14),
+            bg="lightblue"
         )
         descripcion.pack(pady=10)
 

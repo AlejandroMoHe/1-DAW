@@ -151,6 +151,7 @@ class PantallaQuiz(tk.Frame):
                 nombre = config.get("nombre", "Jugador")
 
         self.configure(bg=color)
+
         self.label_titulo.config(
             text=f"Quiz de {nombre}",
             bg=color

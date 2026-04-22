@@ -14,6 +14,9 @@ class Aplicacion(tk.Tk):
         contenedor = tk.Frame(self)
         contenedor.pack(fill="both", expand=True)
 
+        contenedor.grid_rowconfigure(0, weight=1)
+        contenedor.grid_columnconfigure(0, weight=1)
+
         self.pantallas = {}
 
         for Pantalla in (PantallaInicio, PantallaConfiguracion, PantallaQuiz):
@@ -27,7 +30,7 @@ class Aplicacion(tk.Tk):
     def mostrar_pantalla(self, nombre):
         pantalla = self.pantallas[nombre]
 
-        if nombre == "PantallaQuiz":
+        if hasattr(pantalla, "cargar_config"):
             pantalla.cargar_config()
 
         pantalla.tkraise()
