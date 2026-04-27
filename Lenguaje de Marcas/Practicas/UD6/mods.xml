@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modsMinecraft>
+    <mod id="m1">
+        <nombre>OptiFine</nombre>
+        <categoria>Rendimiento</categoria>
+        <version>1.20</version>
+        <descargas>15000000</descargas>
+        <valoracion>4.9</valoracion>
+        <autor>sp614x</autor>
+    </mod>
+    <mod id="m2">
+        <nombre>Just Enough Items (JEI)</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.20</version>
+        <descargas>12000000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>mezz</autor>
+    </mod>
+    <mod id="m3">
+        <nombre>Biomes O Plenty</nombre>
+        <categoria>Mundo</categoria>
+        <version>1.20</version>
+        <descargas>8000000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>Forstride</autor>
+    </mod>
+    <mod id="m4">
+        <nombre>JourneyMap</nombre>
+        <categoria>Mapa</categoria>
+        <version>1.20</version>
+        <descargas>9000000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>techbrew</autor>
+    </mod>
+    <mod id="m5">
+        <nombre>Create</nombre>
+        <categoria>Tecnologia</categoria>
+        <version>1.20</version>
+        <descargas>11000000</descargas>
+        <valoracion>4.9</valoracion>
+        <autor>simibubi</autor>
+    </mod>
+    <mod id="m6">
+        <nombre>Quark</nombre>
+        <categoria>Mejoras</categoria>
+        <version>1.20</version>
+        <descargas>8500000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>Vazkii</autor>
+    </mod>
+    <mod id="m7">
+        <nombre>Chisel</nombre>
+        <categoria>Decoracion</categoria>
+        <version>1.19</version>
+        <descargas>5000000</descargas>
+        <valoracion>4.5</valoracion>
+        <autor>tterrag</autor>
+    </mod>
+    <mod id="m8">
+        <nombre>Waystones</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.20</version>
+        <descargas>4000000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>BlayTheNinth</autor>
+    </mod>
+    <mod id="m9">
+        <nombre>Iron Chests</nombre>
+        <categoria>Almacenamiento</categoria>
+        <version>1.19</version>
+        <descargas>3000000</descargas>
+        <valoracion>4.4</valoracion>
+        <autor>cpw</autor>
+    </mod>
+    <mod id="m10">
+        <nombre>MrCrayfish Furniture</nombre>
+        <categoria>Decoracion</categoria>
+        <version>1.20</version>
+        <descargas>9500000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>MrCrayfish</autor>
+    </mod>
+    <mod id="m11">
+        <nombre>Applied Energistics 2</nombre>
+        <categoria>Tecnologia</categoria>
+        <version>1.20</version>
+        <descargas>7000000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>AlgorithmX2</autor>
+    </mod>
+    <mod id="m12">
+        <nombre>Thermal Expansion</nombre>
+        <categoria>Tecnologia</categoria>
+        <version>1.19</version>
+        <descargas>6500000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>TeamCoFH</autor>
+    </mod>
+    <mod id="m13">
+        <nombre>Industrial Craft 2</nombre>
+        <categoria>Tecnologia</categoria>
+        <version>1.18</version>
+        <descargas>6000000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>IC2 Team</autor>
+    </mod>
+    <mod id="m14">
+        <nombre>Ender IO</nombre>
+        <categoria>Tecnologia</categoria>
+        <version>1.19</version>
+        <descargas>5800000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>CrazyPants</autor>
+    </mod>
+    <mod id="m15">
+        <nombre>Mekanism</nombre>
+        <categoria>Tecnologia</categoria>
+        <version>1.20</version>
+        <descargas>7200000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>bradyaidanc</autor>
+    </mod>
+    <mod id="m16">
+        <nombre>Botania</nombre>
+        <categoria>Magia</categoria>
+        <version>1.20</version>
+        <descargas>6800000</descargas>
+        <valoracion>4.9</valoracion>
+        <autor>Vazkii</autor>
+    </mod>
+    <mod id="m17">
+        <nombre>Thaumcraft</nombre>
+        <categoria>Magia</categoria>
+        <version>1.12</version>
+        <descargas>7500000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>Azanor</autor>
+    </mod>
+    <mod id="m18">
+        <nombre>Blood Magic</nombre>
+        <categoria>Magia</categoria>
+        <version>1.20</version>
+        <descargas>5000000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>WayofTime</autor>
+    </mod>
+    <mod id="m19">
+        <nombre>Ars Nouveau</nombre>
+        <categoria>Magia</categoria>
+        <version>1.20</version>
+        <descargas>4200000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>baileyholl</autor>
+    </mod>
+    <mod id="m20">
+        <nombre>Alex Mobs</nombre>
+        <categoria>Animales</categoria>
+        <version>1.20</version>
+        <descargas>6000000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>sbom_xela</autor>
+    </mod>
+
+    <mod id="m21">
+        <nombre>Ice and Fire</nombre>
+        <categoria>Dragones</categoria>
+        <version>1.20</version>
+        <descargas>5500000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>Raptorfarian</autor>
+    </mod>
+    <mod id="m22">
+        <nombre>Twilight Forest</nombre>
+        <categoria>Aventura</categoria>
+        <version>1.20</version>
+        <descargas>8000000</descargas>
+        <valoracion>4.9</valoracion>
+        <autor>Benimatic</autor>
+    </mod>
+    <mod id="m23">
+        <nombre>RLCraft</nombre>
+        <categoria>Hardcore</categoria>
+        <version>1.12</version>
+        <descargas>9000000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>Shivaxi</autor>
+    </mod>
+    <mod id="m24">
+        <nombre>BetterEnd</nombre>
+        <categoria>Mundo</categoria>
+        <version>1.20</version>
+        <descargas>4500000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>Beethoven92</autor>
+    </mod>
+    <mod id="m25">
+        <nombre>BetterNether</nombre>
+        <categoria>Mundo</categoria>
+        <version>1.20</version>
+        <descargas>4700000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>Beethoven92</autor>
+    </mod>
+    <mod id="m26">
+        <nombre>Dynamic Trees</nombre>
+        <categoria>Naturaleza</categoria>
+        <version>1.20</version>
+        <descargas>3000000</descargas>
+        <valoracion>4.5</valoracion>
+        <autor>ferreusveritas</autor>
+    </mod>
+    <mod id="m27">
+        <nombre>Serene Seasons</nombre>
+        <categoria>Naturaleza</categoria>
+        <version>1.20</version>
+        <descargas>3200000</descargas>
+        <valoracion>4.5</valoracion>
+        <autor>Glitchfiend</autor>
+    </mod>
+    <mod id="m28">
+        <nombre>Farmers Delight</nombre>
+        <categoria>Comida</categoria>
+        <version>1.20</version>
+        <descargas>6000000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>vectorwing</autor>
+    </mod>
+    <mod id="m29">
+        <nombre>Cooking for Blockheads</nombre>
+        <categoria>Comida</categoria>
+        <version>1.20</version>
+        <descargas>3500000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>BlayTheNinth</autor>
+    </mod>
+    <mod id="m30">
+        <nombre>AppleSkin</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.20</version>
+        <descargas>7000000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>squeek502</autor>
+    </mod>
+
+    <mod id="m31">
+        <nombre>Inventory Tweaks</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.12</version>
+        <descargas>8000000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>Kobata</autor>
+    </mod>
+    <mod id="m32">
+        <nombre>Mouse Tweaks</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.20</version>
+        <descargas>7500000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>YaLTeR</autor>
+    </mod>
+    <mod id="m33">
+        <nombre>Fast Leaf Decay</nombre>
+        <categoria>Rendimiento</categoria>
+        <version>1.20</version>
+        <descargas>2000000</descargas>
+        <valoracion>4.4</valoracion>
+        <autor>Olafskiii</autor>
+    </mod>
+    <mod id="m34">
+        <nombre>FoamFix</nombre>
+        <categoria>Rendimiento</categoria>
+        <version>1.12</version>
+        <descargas>4000000</descargas>
+        <valoracion>4.5</valoracion>
+        <autor>asiekierka</autor>
+    </mod>
+    <mod id="m35">
+        <nombre>Phosphor</nombre>
+        <categoria>Rendimiento</categoria>
+        <version>1.20</version>
+        <descargas>5000000</descargas>
+        <valoracion>4.6</valoracion>
+        <autor>jellysquid</autor>
+    </mod>
+    <mod id="m36">
+        <nombre>Lithium</nombre>
+        <categoria>Rendimiento</categoria>
+        <version>1.20</version>
+        <descargas>5500000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>jellysquid</autor>
+    </mod>
+    <mod id="m37">
+        <nombre>Sodium</nombre>
+        <categoria>Rendimiento</categoria>
+        <version>1.20</version>
+        <descargas>10000000</descargas>
+        <valoracion>4.9</valoracion>
+        <autor>jellysquid</autor>
+    </mod>
+    <mod id="m38">
+        <nombre>Clumps</nombre>
+        <categoria>Rendimiento</categoria>
+        <version>1.20</version><descargas>3000000</descargas><valoracion>4.5</valoracion><autor>Jaredlll08</autor></mod>
+    <mod id="m39">
+        <nombre>Controlling</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.20</version><descargas>3500000</descargas><valoracion>4.6</valoracion><autor>Jaredlll08</autor></mod>
+    <mod id="m40">
+        <nombre>Gravestone</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.20</version><descargas>4500000</descargas><valoracion>4.6</valoracion><autor>henkelmax</autor></mod>
+
+    <mod id="m41">
+        <nombre>Carry On</nombre>
+        <categoria>Utilidad</categoria>
+        <version>1.20</version>
+        <descargas>5000000</descargas>
+        <valoracion>4.7</valoracion>
+        <autor>Tschipp</autor>
+    </mod>
+    <mod id="m42">
+        <nombre>Simple Voice Chat</nombre>
+        <categoria>Social</categoria>
+        <version>1.20</version>
+        <descargas>6000000</descargas>
+        <valoracion>4.8</valoracion>
+        <autor>henkelmax</autor>
+    </mod>
+    <mod id="m43">
+        <nombre>Xaeros Minimap</nombre><categoria>Mapa</categoria><version>1.20</version><descargas>8500000</descargas><valoracion>4.9</valoracion><autor>xaero96</autor></mod>
+    <mod id="m44">
+        <nombre>Xaeros World Map</nombre><categoria>Mapa</categoria><version>1.20</version><descargas>7500000</descargas><valoracion>4.8</valoracion><autor>xaero96</autor></mod>
+    <mod id="m45">
+        <nombre>FTB Chunks</nombre><categoria>Mapa</categoria><version>1.20</version><descargas>4000000</descargas><valoracion>4.7</valoracion><autor>FTB Team</autor></mod>
+    <mod id="m46">
+        <nombre>FTB Teams</nombre><categoria>Social</categoria><version>1.20</version><descargas>3500000</descargas><valoracion>4.6</valoracion><autor>FTB Team</autor></mod>
+    <mod id="m47">
+        <nombre>FTB Library</nombre><categoria>Utilidad</categoria><version>1.20</version><descargas>5000000</descargas><valoracion>4.6</valoracion><autor>FTB Team</autor></mod>
+    <mod id="m48">
+        <nombre>Pams HarvestCraft 2</nombre><categoria>Comida</categoria><version>1.20</version><descargas>6500000</descargas><valoracion>4.7</valoracion><autor>pamharvestcraft</autor></mod>
+    <mod id="m49">
+        <nombre>Storage Drawers</nombre><categoria>Almacenamiento</categoria><version>1.20</version><descargas>7000000</descargas><valoracion>4.8</valoracion><autor>Texelsaur</autor></mod>
+    <mod id="m50">
+        <nombre>Refined Storage</nombre><categoria>Tecnologia</categoria><version>1.20</version><descargas>7500000</descargas><valoracion>4.9</valoracion><autor>raoulvdberge</autor></mod>
+
+</modsMinecraft>
