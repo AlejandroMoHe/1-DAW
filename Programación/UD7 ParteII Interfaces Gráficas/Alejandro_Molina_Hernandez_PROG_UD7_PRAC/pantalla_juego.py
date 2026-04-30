@@ -127,6 +127,17 @@ class PantallaQuiz(tk.Frame):
         )
         boton_comprobar.pack(pady=10)
 
+        boton_siguiente = tk.Button(
+            self,
+            text="Siguiente acertijo",
+            font=("Arial", 12, "bold"),
+            bg="#90e0ef",
+            fg="black",
+            width=20,
+            command=self.mostrar_pregunta
+        )
+        boton_siguiente.pack(pady=10)
+
         boton_inicio = tk.Button(
             self,
             text="Volver al inicio",
@@ -198,7 +209,7 @@ class PantallaQuiz(tk.Frame):
         respuesta_usuario = self.entry_respuesta.get().lower().strip()
         respuesta_correcta = self.preguntas[self.indice]["respuesta"]
 
-        if respuesta_usuario == respuesta_correcta:
+        if respuesta_usuario.lower() == respuesta_correcta.lower():
             self.puntuacion += 1
             self.label_resultado.config(
                 text="¡Correcto!",
@@ -215,4 +226,3 @@ class PantallaQuiz(tk.Frame):
         self.label_puntuacion.config(text=f"Puntuación: {self.puntuacion}")
 
         self.indice += 1
-        self.after(1500, self.mostrar_pregunta)
