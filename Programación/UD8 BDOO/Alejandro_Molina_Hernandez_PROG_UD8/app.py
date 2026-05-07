@@ -3,6 +3,7 @@ from ZODB.FileStorage import FileStorage
 import transaction
 from persistent import Persistent
 from persistent.list import PersistentList
+from pathlib import Path
 import random
 
 
@@ -64,8 +65,8 @@ def nueva_frase(items):
 
     return nueva
 
-
-storage = FileStorage("./checklist.fs")
+carpeta = Path(__file__).resolve().parent
+storage = FileStorage(str(carpeta / "checklist.fs"))
 db = DB(storage)
 connection = db.open()
 root = connection.root()
@@ -75,12 +76,12 @@ if "items" not in root or len(root["items"]) == 0:
     root["items"] = PersistentList([
         Frase("Estoy a 2 pensamientos raros de convertirme en NPC.", "Cualquier persona"),
         Frase("El éxito me persigue, pero yo soy más rápido.", "Usain Bolt"),
-        Frase("Si funciona, fue intencional; si no, también.", ""),
+        Frase("Si funciona, fue intencional; si no, también.", "Albert Einstein"),
         Frase("El backend llora, el frontend disimula.", "Jefe de la empresa"),
         Frase("Si busca resultados distintos, no hagas siempre lo mismo.", "Albert Einstein"),
         Frase("No es un error, es una versión alternativa.", "Albert Einstein"),
         Frase("Commit: arreglos varios (no sé cuáles).", "Alumno de DAW"),
-        Frase("Todo era null… como mis esperanzas.", "")
+        Frase("Todo era null… como mis esperanzas.", "Becario")
     ])
 
     transaction.commit()
@@ -118,12 +119,12 @@ try:
                 root["items"] = PersistentList([
                     Frase("Estoy a 2 pensamientos raros de convertirme en NPC.", "Cualquier persona"),
                     Frase("El éxito me persigue, pero yo soy más rápido.", "Usain Bolt"),
-                    Frase("Si funciona, fue intencional; si no, también.", ""),
+                    Frase("Si funciona, fue intencional; si no, también.", "Albert Einstein"),
                     Frase("El backend llora, el frontend disimula.", "Jefe de la empresa"),
                     Frase("Si busca resultados distintos, no hagas siempre lo mismo.", "Albert Einstein"),
                     Frase("No es un error, es una versión alternativa.", "Albert Einstein"),
                     Frase("Commit: arreglos varios (no sé cuáles).", "Alumno de DAW"),
-                    Frase("Todo era null… como mis esperanzas.", "")
+                    Frase("Todo era null… como mis esperanzas.", "Becario")
                 ])
 
                 transaction.commit()
