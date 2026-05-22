@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<estudios>
+    <estudio>
+        <id>1</id>
+        <nombre>Walt Disney Pictures</nombre>
+        <fundadores>
+            <fundador>Walt Disney</fundador>
+            <fundador>Roy O. Disney</fundador>
+        </fundadores>
+        <fechaFundacion>1923-10-16</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>25800.0</ingresosMillones>
+        <ultimaActualizacion>2025-11-27</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>2</id>
+        <nombre>Warner Bros. Pictures</nombre>
+        <fundadores>
+            <fundador>Harry Warner</fundador>
+            <fundador>Albert Warner</fundador>
+            <fundador>Sam Warner</fundador>
+            <fundador>Jack Warner</fundador>
+        </fundadores>
+        <fechaFundacion>1923-04-04</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>22100.0</ingresosMillones>
+        <ultimaActualizacion>2025-07-12</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>3</id>
+        <nombre>Universal Pictures</nombre>
+        <fundadores>
+            <fundador>Carl Laemmle</fundador>
+        </fundadores>
+        <fechaFundacion>1912-04-30</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>20300.0</ingresosMillones>
+        <ultimaActualizacion>2025-06-14</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>4</id>
+        <nombre>Paramount Pictures</nombre>
+        <fundadores>
+            <fundador>Adolph Zukor</fundador>
+            <fundador>Jesse L. Lasky</fundador>
+            <fundador>Cecil B. DeMille</fundador>
+        </fundadores>
+        <fechaFundacion>1912-05-08</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>16600.0</ingresosMillones>
+        <ultimaActualizacion>2024-12-20</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>5</id>
+        <nombre>Sony Pictures Entertainment</nombre>
+        <fundadores>
+            <fundador>Akio Morita</fundador>
+            <fundador>Masaru Ibuka</fundador>
+        </fundadores>
+        <fechaFundacion>1987-11-18</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>18400.0</ingresosMillones>
+        <ultimaActualizacion>2025-09-05</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>6</id>
+        <nombre>20th Century Studios</nombre>
+        <fundadores>
+            <fundador>William Fox</fundador>
+            <fundador>Darryl F. Zanuck</fundador>
+        </fundadores>
+        <fechaFundacion>1935-05-31</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>15700.0</ingresosMillones>
+        <ultimaActualizacion>2025-03-21</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>7</id>
+        <nombre>Columbia Pictures</nombre>
+        <fundadores>
+            <fundador>Harry Cohn</fundador>
+            <fundador>Jack Cohn</fundador>
+            <fundador>Joe Brandt</fundador>
+        </fundadores>
+        <fechaFundacion>1924-01-10</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>13800.0</ingresosMillones>
+        <ultimaActualizacion>2024-08-02</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>8</id>
+        <nombre>Metro-Goldwyn-Mayer (MGM)</nombre>
+        <fundadores>
+            <fundador>Marcus Loew</fundador>
+        </fundadores>
+        <fechaFundacion>1924-04-17</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>11000.0</ingresosMillones>
+        <ultimaActualizacion>2024-11-15</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>9</id>
+        <nombre>Pixar Animation Studios</nombre>
+        <fundadores>
+            <fundador>Edwin Catmull</fundador>
+            <fundador>Alvy Ray Smith</fundador>
+            <fundador>Steve Jobs</fundador>
+        </fundadores>
+        <fechaFundacion>1986-02-03</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>12900.0</ingresosMillones>
+        <ultimaActualizacion>2025-06-19</ultimaActualizacion>
+    </estudio>
+    <estudio>
+        <id>10</id>
+        <nombre>DreamWorks Pictures</nombre>
+        <fundadores>
+            <fundador>Steven Spielberg</fundador>
+            <fundador>Jeffrey Katzenberg</fundador>
+            <fundador>David Geffen</fundador>
+        </fundadores>
+        <fechaFundacion>1994-10-12</fechaFundacion>
+        <activo>true</activo>
+        <empresaMatriz>None</empresaMatriz>
+        <ingresosMillones>12000.0</ingresosMillones>
+        <ultimaActualizacion>2024-10-30</ultimaActualizacion>
+    </estudio>
+</estudios>

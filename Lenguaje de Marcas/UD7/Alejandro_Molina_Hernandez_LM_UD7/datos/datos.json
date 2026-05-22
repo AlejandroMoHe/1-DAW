@@ -1,0 +1,156 @@
+{
+    "estudios": {
+        "estudio": [
+            {
+                "id": "1",
+                "nombre": "Walt Disney Pictures",
+                "fundadores": {
+                    "fundador": [
+                        "Walt Disney",
+                        "Roy O. Disney"
+                    ]
+                },
+                "fechaFundacion": "1923-10-16",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "25800.0",
+                "ultimaActualizacion": "2025-11-27"
+            },
+            {
+                "id": "2",
+                "nombre": "Warner Bros. Pictures",
+                "fundadores": {
+                    "fundador": [
+                        "Harry Warner",
+                        "Albert Warner",
+                        "Sam Warner",
+                        "Jack Warner"
+                    ]
+                },
+                "fechaFundacion": "1923-04-04",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "22100.0",
+                "ultimaActualizacion": "2025-07-12"
+            },
+            {
+                "id": "3",
+                "nombre": "Universal Pictures",
+                "fundadores": {
+                    "fundador": "Carl Laemmle"
+                },
+                "fechaFundacion": "1912-04-30",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "20300.0",
+                "ultimaActualizacion": "2025-06-14"
+            },
+            {
+                "id": "4",
+                "nombre": "Paramount Pictures",
+                "fundadores": {
+                    "fundador": [
+                        "Adolph Zukor",
+                        "Jesse L. Lasky",
+                        "Cecil B. DeMille"
+                    ]
+                },
+                "fechaFundacion": "1912-05-08",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "16600.0",
+                "ultimaActualizacion": "2024-12-20"
+            },
+            {
+                "id": "5",
+                "nombre": "Sony Pictures Entertainment",
+                "fundadores": {
+                    "fundador": [
+                        "Akio Morita",
+                        "Masaru Ibuka"
+                    ]
+                },
+                "fechaFundacion": "1987-11-18",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "18400.0",
+                "ultimaActualizacion": "2025-09-05"
+            },
+            {
+                "id": "6",
+                "nombre": "20th Century Studios",
+                "fundadores": {
+                    "fundador": [
+                        "William Fox",
+                        "Darryl F. Zanuck"
+                    ]
+                },
+                "fechaFundacion": "1935-05-31",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "15700.0",
+                "ultimaActualizacion": "2025-03-21"
+            },
+            {
+                "id": "7",
+                "nombre": "Columbia Pictures",
+                "fundadores": {
+                    "fundador": [
+                        "Harry Cohn",
+                        "Jack Cohn",
+                        "Joe Brandt"
+                    ]
+                },
+                "fechaFundacion": "1924-01-10",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "13800.0",
+                "ultimaActualizacion": "2024-08-02"
+            },
+            {
+                "id": "8",
+                "nombre": "Metro-Goldwyn-Mayer (MGM)",
+                "fundadores": {
+                    "fundador": "Marcus Loew"
+                },
+                "fechaFundacion": "1924-04-17",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "11000.0",
+                "ultimaActualizacion": "2024-11-15"
+            },
+            {
+                "id": "9",
+                "nombre": "Pixar Animation Studios",
+                "fundadores": {
+                    "fundador": [
+                        "Edwin Catmull",
+                        "Alvy Ray Smith",
+                        "Steve Jobs"
+                    ]
+                },
+                "fechaFundacion": "1986-02-03",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "12900.0",
+                "ultimaActualizacion": "2025-06-19"
+            },
+            {
+                "id": "10",
+                "nombre": "DreamWorks Pictures",
+                "fundadores": {
+                    "fundador": [
+                        "Steven Spielberg",
+                        "Jeffrey Katzenberg",
+                        "David Geffen"
+                    ]
+                },
+                "fechaFundacion": "1994-10-12",
+                "activo": "true",
+                "empresaMatriz": "None",
+                "ingresosMillones": "12000.0",
+                "ultimaActualizacion": "2024-10-30"
+            }
+        ]
+    }
+}
